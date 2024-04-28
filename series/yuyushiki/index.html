@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>유유시키 메인 메뉴</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.4" />
+    <link rel="shortcut icon" href="https://lh3.google.com/u/0/d/1E9Y1zFsGVmJGUkVvj74RtQEljGt54mxj" />
+    <link rel="icon" href="https://lh3.google.com/u/0/d/1E9Y1zFsGVmJGUkVvj74RtQEljGt54mxj" />
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="../index.css" />
+    <link rel="stylesheet" type="text/css" href="color.css" />
+    <script src="../jquery.min.js"></script>
+    <script src="../stellar.js"></script>
+    <script>
+        $(function() {
+            $.stellar({
+                horizontalScrolling: false,
+                verticalOffset: 0
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="header" data-stellar-background-ratio="0.5">
+        <div class="shadow">
+            <h1>유유시키 메인 메뉴</h1>
+            <h4>ゆゆ式 メインメニュ-</h4>
+        </div>
+    </div>
+    <div class="navbar" style="padding: 0px 100px;">
+        <a href="../index.html"><b>Tippy</b></a>
+        <a class="next">&#10095;</a>
+        <a class="active"><b>유유시키 메인 메뉴</b></a>
+    </div>
+    <div class="row">
+        <div class="side">
+            <h2>유유시키 메인 메뉴</h2>
+            <h4>ゆゆ式 メインメニュ-</h4>
+            <script language="javascript">
+                var delay = 3000
+                var curindex = 0
+
+                var randomimages = new Array()
+
+                randomimages[0] = "https://lh3.google.com/u/0/d/1n5ZCtnWZhKo9yXBEFdXM2nKZ5Wa4VQI8"
+                randomimages[1] = "https://lh3.google.com/u/0/d/1Tn_QJjb9ujlcb1Y4deFfFxeMkuVvUdaI"
+                randomimages[2] = "https://lh3.google.com/u/0/d/1zItE03t2yTaOgSXfp_s4TiFBERv4oQAc"
+                randomimages[3] = "https://lh3.google.com/u/0/d/1j02asXOlk1K9dERePlI0CL7zEZ0QwXlm"
+                randomimages[4] = "https://lh3.google.com/u/0/d/13mGM2UJ6oN5okqNZF3v_E9x53lw2XCRi"
+                randomimages[5] = "https://lh3.google.com/u/0/d/1wDzzF0NDjTZcpOkylMEz9bjadbEPh8TT"
+                randomimages[6] = "https://lh3.google.com/u/0/d/1cvD87LptAg_-3t9GfIMozFhOLdsGosbF"
+                randomimages[7] = "https://lh3.google.com/u/0/d/1xqQwxTrR3tLtkD8hH-48Y8Wl23OlCywU"
+                randomimages[8] = "https://lh3.google.com/u/0/d/1DuwMmylQTTAj8qEF94tsVmWmJfzMA0ZB"
+                randomimages[9] = "https://lh3.google.com/u/0/d/1VOT68ZSxykGXq0DfhvskG56C-HBx70dO"
+                randomimages[10] = "https://lh3.google.com/u/0/d/1JQUQ2ZbQZ-YZsK398BVgfxcRZgxURZU-"
+                randomimages[11] = "https://lh3.google.com/u/0/d/1DVpHPl7jaaoHTNeQgK92NBjQE-eq7PdZ"
+                randomimages[12] = "https://lh3.google.com/u/0/d/1FicHFkNAvt9AnephbeUA1Ed6XLhmioSJ"
+                randomimages[13] = "https://lh3.google.com/u/0/d/1p215yEzj8Yhf4ps9r-B7ipMrCbp_C-gA"
+                randomimages[14] = "https://lh3.google.com/u/0/d/1ZQIA07qgEZpn8UvbfKH4UrH6FVSzI2k_"
+                randomimages[15] = "https://lh3.google.com/u/0/d/1qVhM05-p8MG5U5BG5vq4ZhoSoEJ-F94A"
+                randomimages[16] = "https://lh3.google.com/u/0/d/1of3zmXQrApINlQKugkI-45ExTwn1bfxv"
+                randomimages[17] = "https://lh3.google.com/u/0/d/15G5Mb2rMaDJCL0kZbFxnEI5cL-jTdfof"
+                randomimages[18] = "https://lh3.google.com/u/0/d/1ZKitLrt4f8gLliE0UGDiOE1gYUPXBVqq"
+
+                var preload = new Array()
+
+                for (n = 0; n < randomimages.length; n++) {
+                    preload[n] = new Image()
+                    preload[n].src = randomimages[n]
+                }
+
+                document.write('<img name="defaultimage" src="' + randomimages[Math.floor(Math.random() * (randomimages.length))] + '"  style="width: 300px; height: auto; margin: 0px 0px 10px 0px;">')
+
+                function rotateimage() {
+
+                    if (curindex == (tempindex = Math.floor(Math.random() * (randomimages.length)))) {
+                        curindex = curindex == 0 ? 1 : curindex - 1
+                    } else
+                        curindex = tempindex
+
+                    document.images.defaultimage.src = randomimages[curindex]
+                }
+
+                setInterval("rotateimage()", delay)
+            </script>
+            <img src="https://lh3.google.com/u/0/d/1vNQPC9oSRGk7OHCbWOfWT1uDV9lpWCJF" width="300px" height="auto" />
+        </div>
+        <div class="main">
+            <div class="list" style="font-weight: bold;">
+                <a href="01/index.html">
+                    <table border="0">
+                        <td>
+                            <div style="text-align:center; width: 40px;">01</div>
+                        </td>
+                        <td>
+                            <img src="https://lh3.google.com/u/0/d/1HC-rDaxAYDlCmfVP2o9Cq_nKUlIiSncF" width="560px" height="315px" />
+                        </td>
+                        <td style="width: 100vw;">
+                            <b style="padding: 0px 0px 0px 30px;">유유시키</b>
+                        </td>
+                    </table>
+                </a>
+                <a href="ova/index.html">
+                    <table border="0">
+                        <td>
+                            <div style="text-align:center; width: 40px;">02</div>
+                        </td>
+                        <td>
+                            <img src="https://lh3.google.com/u/0/d/1PSjnwXMx2-5K9Ovxy3XG7AUnDbRR2hoX" width="560px" height="315px" />
+                        </td>
+                        <td style="width: 100vw;">
+                            <b style="padding: 0px 0px 0px 30px;">유유시키 OVA</b>
+                        </td>
+                    </table>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <b>유유시키 메인 메뉴</b>
+    </footer>
+    <button onclick="topFunction()" id="gttopbtn"><b>맨 위로</b></button>
+    <script src="../gototop.js"></script>
+</body>
+
+</html>

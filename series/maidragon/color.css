@@ -1,0 +1,39 @@
+body::-webkit-scrollbar-thumb {
+    background-color: str;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: wea;
+}
+
+.header {
+    background-image: url(=w3840-h2160);
+}
+
+.navbar {
+    background-color: nor;
+}
+
+.navbar a:hover {
+    background-color: wea;
+}
+
+.navbar a.active {
+    background-color: str;
+}
+
+.navbar a.next {
+    background-color: nor;
+}
+
+footer {
+    background-color: nor;
+}
+
+#gttopbtn {
+    background-color: str;
+}
+
+#gttopbtn:hover {
+    background-color: wea;
+}

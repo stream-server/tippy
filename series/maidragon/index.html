@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>[제목] 메인 메뉴</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.4" />
+    <link rel="shortcut icon" href="[아이콘]" />
+    <link rel="icon" href="[아이콘]" />
+	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="../index.css" />
+    <link rel="stylesheet" type="text/css" href="color.css" />
+    <script src="../jquery.min.js"></script>
+    <script src="../stellar.js"></script>
+    <script>
+        $(function() {
+            $.stellar({
+                horizontalScrolling: false,
+                verticalOffset: 0
+            });
+        });
+    </script>
+</head>
+
+<body>
+ <div class="header" data-stellar-background-ratio="0.5">
+        <div class="shadow">
+            <h1>[제목] 메인 메뉴</h1>
+            <h4>[일본어] メインメニュ-</h4>
+        </div>
+    </div>
+    <div class="navbar" style="padding: 0px 100px;">
+        <a href="../index.html"><b>Tippy</b></a>
+        <a class="next">&#10095;</a>
+        <a class="active"><b>[제목] 메인 메뉴</b></a>
+    </div>
+    <div class="row">
+        <div class="side">
+            <h2>[제목] 메인 메뉴</h2>
+            <h4>[일본어] メインメニュ-</h4>
+            <script language="javascript">
+                var delay = 3000
+                var curindex = 0
+
+                var randomimages = new Array()
+
+                randomimages[0] = ""
+                randomimages[1] = ""
+                randomimages[2] = ""
+                randomimages[3] = ""
+                randomimages[4] = ""
+                randomimages[5] = ""
+                randomimages[6] = ""
+                randomimages[7] = ""
+                randomimages[8] = ""
+                randomimages[9] = ""
+                randomimages[10] = ""
+                randomimages[11] = ""
+                randomimages[12] = ""
+                randomimages[13] = ""
+                randomimages[14] = ""
+                randomimages[15] = ""
+                randomimages[16] = ""
+                randomimages[17] = ""
+                randomimages[18] = ""
+                randomimages[19] = ""
+                randomimages[20] = ""
+                randomimages[21] = ""
+                randomimages[22] = ""
+                randomimages[23] = ""
+                randomimages[24] = ""
+                randomimages[25] = ""
+                randomimages[26] = ""
+                randomimages[27] = ""
+                randomimages[28] = ""
+                randomimages[29] = ""
+                randomimages[30] = ""
+
+                var preload = new Array()
+
+                for (n = 0; n < randomimages.length; n++) {
+                    preload[n] = new Image()
+                    preload[n].src = randomimages[n]
+                }
+
+                document.write('<img name="defaultimage" src="' + randomimages[Math.floor(Math.random() * (randomimages.length))] + '"  style="width: 300px; height: auto; margin: 0px 0px 10px 0px;">')
+
+                function rotateimage() {
+
+                    if (curindex == (tempindex = Math.floor(Math.random() * (randomimages.length)))) {
+                        curindex = curindex == 0 ? 1 : curindex - 1
+                    } else
+                        curindex = tempindex
+
+                    document.images.defaultimage.src = randomimages[curindex]
+                }
+
+                setInterval("rotateimage()", delay)
+            </script>
+            <iframe width="300px;" height="300px;" style="margin: 0px 0px 10px 0px;" src="" frameborder="0"></iframe>
+            <img src="" width="300px" height="auto" />
+        </div>
+        <div class="main">
+            <div class="list" style="font-weight: bold;">
+<a href="..//index.html"><table border="0"><td><div style="text-align:center; width: 40px;">01</div></td><td>
+<img src="" width="560px" height="315px" /></td><td style="width: 100vw;">
+<b style="padding: 0px 0px 0px 30px;">[제목]</b></td></table></a>
+<a href="..//index.html"><table border="0"><td><div style="text-align:center; width: 40px;">02</div></td><td>
+<img src="" width="560px" height="315px" /></td><td style="width: 100vw;">
+<b style="padding: 0px 0px 0px 30px;">[제목]</b></td></table></a>
+<a href="/index.html"><table border="0"><td><div style="text-align:center; width: 40px;">03</div></td><td>
+<img src="" width="560px" height="315px" /></td><td style="width: 100vw;">
+<b style="padding: 0px 0px 0px 30px;">[제목]</b></td></table></a>
+<a href="/index.html"><table border="0"><td><div style="text-align:center; width: 40px;">04</div></td><td>
+<img src="" width="560px" height="315px" /></td><td style="width: 100vw;">
+<b style="padding: 0px 0px 0px 30px;">[제목]</b></td></table></a>
+<a href="..//index.html"><table border="0"><td><div style="text-align:center; width: 40px;">05</div></td><td>
+<img src="" width="560px" height="315px" /></td><td style="width: 100vw;">
+<b style="padding: 0px 0px 0px 30px;">[제목]</b></td></table></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <b>[제목] 메인 메뉴</b>
+    </footer>
+	    <button onclick="topFunction()" id="gttopbtn"><b>맨 위로</b></button>
+    <script src="../gototop.js"></script>
+</body>
+
+</html>
