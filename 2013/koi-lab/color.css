@@ -1,0 +1,63 @@
+body::-webkit-scrollbar-thumb {
+    background-color: #BEF781;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #DFFAC2;
+}
+
+.header {
+    background-image: url(https://lh3.google.com/u/0/d/18uZIdoyAKbjxuP2awa-dxfV0Ns1IWdaD=w3840-h2160);
+}
+
+.navbar {
+    background-color: #CBF89A;
+}
+
+.navbar a:hover {
+    background-color: #DFFAC2;
+}
+
+.navbar a.active {
+    background-color: #BEF781;
+}
+
+.navbar a.next {
+    background-color: #CBF89A;
+}
+
+footer {
+    background-color: #CBF89A;
+}
+
+#gttopbtn {
+    background-color: #BEF781;
+}
+
+#gttopbtn:hover {
+    background-color: #DFFAC2;
+}
+
+.navbar a {
+    color: #000000;
+}
+
+.navbar a:hover {
+    color: #000000;
+}
+
+.navbar a.active {
+    color: #000000;
+}
+
+.navbar a.next {
+    color: #000000;
+}
+
+footer {
+    color: #000000;
+}
+
+#gttopbtn {
+    color: #000000;
+}
