@@ -110,7 +110,7 @@
     </div>
   <div id="name"></div>
   <script>startApp();</script>
-	<div class="g-signin2" data-width="300" data-height="200" data-longtitle="true"></div>
+	<div class="g-signin2" data-width="100" data-height="50" data-longtitle="true"></div>
   <script>
     function onSuccess(googleUser) {
       console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
@@ -121,7 +121,7 @@
     function renderButton() {
       gapi.signin2.render('my-signin2', {
         'scope': 'profile email',
-        'width': 240,
+        'width': 100,
         'height': 50,
         'longtitle': true,
         'theme': 'dark',
@@ -131,7 +131,6 @@
     }
   </script>
   <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
-  
     <div class="row">
         <div class="side">
             <h2>Tippy 메인 메뉴</h2>
