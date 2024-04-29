@@ -99,6 +99,10 @@ img {
     padding: 12px 20px;
 }
 
+.google-login {
+    float: right;
+}
+
 .row {
     display: flex;
 }
