@@ -34,7 +34,7 @@
 
     <div class="navbar">
         <a class="active">Tippy</a>
-        <div class="g-signin2" data-width="300" data-height="50" data-longtitle="true">
+        <div class="g-signin2" data-width="250px" data-height="40px" data-longtitle="true">
 			<script>
 				function onSuccess(googleUser) {
 				  console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
@@ -45,8 +45,8 @@
 				function renderButton() {
 				  gapi.signin2.render('my-signin2', {
 					'scope': 'profile email',
-					'width': 300,
-					'height': 50,
+					'width': 250,
+					'height': 40,
 					'longtitle': true,
 					'theme': 'dark',
 					'onsuccess': onSuccess,

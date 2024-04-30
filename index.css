@@ -95,15 +95,6 @@ img {
     padding: auto;
 }
 
-.announce {
-    float: right;
-    font-size: 20px;
-    color: #ff0000;
-    text-align: center;
-    border: 0px;
-    padding: 12px 20px;
-}
-
 .row {
     display: flex;
 }
@@ -288,6 +279,16 @@ footer {
     padding: 12px 0px;
     font-size: 20px;
     color: #ffffff;
+}
+
+.version {
+    float: right;
+    font-size: 20px;
+    color: #ff0000;
+    text-align: center;
+    border: 0px;
+    padding: 12px 0px;
+    text-decoration: none;
 }
 
 @media (max-width: 1400px) {
