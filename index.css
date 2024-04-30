@@ -100,11 +100,6 @@ img {
     float: right;
 }
 
-.g-signin2 {
-    float: right;
-    padding: auto;
-}
-
 .row {
     display: flex;
 }
@@ -113,6 +108,10 @@ img {
     background-color: #f1f1f1;
     padding: 20px 50px;
     width: 400px;
+}
+
+.g-signin2 {
+margin: 0px 0px 10px 0px;
 }
 
 .year {
