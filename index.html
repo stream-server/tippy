@@ -34,7 +34,7 @@
 
     <div class="navbar">
         <a class="active">Tippy</a>
-		<div class="g-signin2" data-width="220" data-height="50" data-longtitle="false">
+		<div class="g-signin2" data-width="220" data-height="50" data-longtitle="true">
 			<script>
 				function onSuccess(googleUser) {
 				  console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
@@ -47,7 +47,7 @@
 					'scope': 'profile email',
 					'width': 220,
 					'height': 50,
-					'longtitle': false,
+					'longtitle': true,
 					'theme': 'dark',
 					'onsuccess': onSuccess,
 					'onfailure': onFailure
