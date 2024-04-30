@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="https://lh3.google.com/u/0/d/1jsjSZPW5-wRZiLko0Dl9TaJf-MTuKz_e"/>
     <link rel="icon" href="https://lh3.google.com/u/0/d/1jsjSZPW5-wRZiLko0Dl9TaJf-MTuKz_e"/>
 	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<meta name="google-signin-client_id" content="337954612924-7k6v1cl34foecsr6dfgirmm9ggoikv00.apps.googleusercontent.com">
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="stylesheet" type="text/css" href="color.css">
 	<script src="jquery.min.js"></script>
@@ -32,7 +34,16 @@
 
     <div class="navbar">
         <a class="active">Tippy</a>
-        <div class="announce">Ver.240430</div>
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+		<script>
+			function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+}
+		</script>
     </div>
 	
     <div class="row">
@@ -192,7 +203,8 @@
 </div>
 	</div>
 <footer>
-Tippy 메인 메뉴
+	<p>Tippy 메인 메뉴</p>
+	<div class="announce">Ver.240430</div>
  </footer>
   <button onclick="topFunction()" id="gttopbtn">맨 위로</button>
   <script src="gototop.js"></script>
