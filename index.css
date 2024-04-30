@@ -90,10 +90,11 @@ img {
     float: right;
 }
 
-. g-signin2 {
+.g-signin2 {
     float: right;
     padding: auto;
 }
+
 .announce {
     float: right;
     font-size: 20px;
