@@ -86,6 +86,10 @@ img {
     color: white;
 }
 
+.g-signin2 {
+    float: right;
+}
+
 .announce {
     float: right;
     font-size: 20px;
