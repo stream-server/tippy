@@ -88,10 +88,8 @@ img {
 
 .navbar a.google-login {
     float: right;
-}
-
-.navbar a.google-login:hover {
-    background-color: #8EC5FC;
+    padding: 0;
+    margin: 0;
 }
 
 .announce {
