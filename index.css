@@ -86,8 +86,12 @@ img {
     color: white;
 }
 
-.g-signin2 {
+.navbar a.google-login {
     float: right;
+}
+
+.navbar a.google-login:hover {
+    background-color: #8EC5FC;
 }
 
 .announce {
