@@ -34,7 +34,8 @@
 
     <div class="navbar">
         <a class="active">Tippy</a>
-        <div class="g-signin2" data-width="250px" data-height="40px" data-longtitle="true">
+		<div class="announce">테스트</div>
+        <div class="g-signin2" data-width="200px" data-height="40px" data-longtitle="true">
 			<script>
 				function onSuccess(googleUser) {
 				  console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
@@ -45,7 +46,7 @@
 				function renderButton() {
 				  gapi.signin2.render('my-signin2', {
 					'scope': 'profile email',
-					'width': 250,
+					'width': 200,
 					'height': 40,
 					'longtitle': true,
 					'theme': 'dark',
@@ -217,7 +218,6 @@
 	</div>
 <footer>
 	<p>Tippy 메인 메뉴</p>
-	<div class="version">Ver.240430</div>
 </footer>
   <button onclick="topFunction()" id="gttopbtn">맨 위로</button>
   <script src="gototop.js"></script>
