@@ -1,9 +1,9 @@
 body::-webkit-scrollbar-thumb {
-    background-color: str;
+    background-color: #E29866;
 }
 
 body::-webkit-scrollbar-track {
-    background-color: wea;
+    background-color: #EBB795;
 }
 
 .header {
@@ -11,29 +11,29 @@ body::-webkit-scrollbar-track {
 }
 
 .navbar {
-    background-color: nor;
+    background-color: #E6A67B;
 }
 
 .navbar a:hover {
-    background-color: wea;
+    background-color: #EBB795;
 }
 
 .navbar a.active {
-    background-color: str;
+    background-color: #E29866;
 }
 
 .navbar a.next {
-    background-color: nor;
+    background-color: #E6A67B;
 }
 
 footer {
-    background-color: nor;
+    background-color: #E6A67B;
 }
 
 #gttopbtn {
-    background-color: str;
+    background-color: #E29866;
 }
 
 #gttopbtn:hover {
-    background-color: wea;
+    background-color: #EBB795;
 }
