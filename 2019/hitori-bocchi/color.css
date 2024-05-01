@@ -1,0 +1,39 @@
+body::-webkit-scrollbar-thumb {
+    background-color: #5CC5C1;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #B8E5E4;
+}
+
+.header {
+    background-image: url(https://lh3.google.com/u/0/d/1H6lT4wjtydV0RI4qDK1b00IbatIdbcFS=w3840-h2160);
+}
+
+.navbar {
+    background-color: #89D4D2;
+}
+
+.navbar a:hover {
+    background-color: #B8E5E4;
+}
+
+.navbar a.active {
+    background-color: #5CC5C1;
+}
+
+.navbar a.next {
+    background-color: #89D4D2;
+}
+
+footer {
+    background-color: #89D4D2;
+}
+
+#gttopbtn {
+    background-color: #5CC5C1;
+}
+
+#gttopbtn:hover {
+    background-color: #B8E5E4;
+}
