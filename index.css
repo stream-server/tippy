@@ -186,6 +186,7 @@ img {
 iframe {
     width: 70vw;
     height: 39.375vw;
+    border: 0px;
     border-radius: 10px;
 }
 
