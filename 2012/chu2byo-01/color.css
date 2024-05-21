@@ -1,0 +1,63 @@
+body::-webkit-scrollbar-thumb {
+    background-color: #85B3D9;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #D2E3F1;
+}
+
+.header {
+    background-image: url(https://lh3.google.com/u/0/d/1PyiUcHdxh5sRtD-705DM3FGY0Q0gXQkB=w3840-h2160);
+}
+
+.navbar {
+    background-color: #BFD7EB;
+}
+
+.navbar a:hover {
+    background-color: #D2E3F1;
+}
+
+.navbar a.active {
+    background-color: #85B3D9;
+}
+
+.navbar a.next {
+    background-color: #BFD7EB;
+}
+
+footer {
+    background-color: #BFD7EB;
+}
+
+#gttopbtn {
+    background-color: #85B3D9;
+}
+
+#gttopbtn:hover {
+    background-color: #D2E3F1;
+}
+
+.navbar a {
+    color: #0B67B4;
+}
+
+.navbar a:hover {
+    color: #0B67B4;
+}
+
+.navbar a.active {
+    color: #0B67B4;
+}
+
+.navbar a.next {
+    color: #0B67B4;
+}
+
+footer {
+    color: #0B67B4;
+}
+
+#gttopbtn {
+    color: #0B67B4;
+}
