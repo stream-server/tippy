@@ -1,0 +1,39 @@
+body::-webkit-scrollbar-thumb {
+    background-color: #7BA9DA;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #BED5EC;
+}
+
+.header {
+    background-image: url(https://lh3.google.com/u/0/d/13ufdr4fq--CHsZSU3KE3R5duF-igAU4v=w3840-h2160);
+}
+
+.navbar {
+    background-color: #A3C3E5;
+}
+
+.navbar a:hover {
+    background-color: #BED5EC;
+}
+
+.navbar a.active {
+    background-color: #7BA9DA;
+}
+
+.navbar a.next {
+    background-color: #A3C3E5;
+}
+
+footer {
+    background-color: #A3C3E5;
+}
+
+#gttopbtn {
+    background-color: #7BA9DA;
+}
+
+#gttopbtn:hover {
+    background-color: #BED5EC;
+}

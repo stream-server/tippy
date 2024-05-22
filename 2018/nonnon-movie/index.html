@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>극장판 논논비요리: 베케이션</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.4" />
+    <link rel="shortcut icon" href="https://lh3.google.com/u/0/d/1IBkX09BGZUGsJu8oRjC4JKbRK3bVnvJy" />
+    <link rel="icon" href="https://lh3.google.com/u/0/d/1IBkX09BGZUGsJu8oRjC4JKbRK3bVnvJy" />
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="../../index.css" />
+    <link rel="stylesheet" type="text/css" href="color.css" />
+    <script src="../../jquery.min.js"></script>
+    <script src="../../stellar.js"></script>
+    <script src="../../anime.js"></script>
+    <script>
+        $(function() {
+            $.stellar({
+                horizontalScrolling: false,
+                verticalOffset: 0
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="Anime01" class="overlay"><a href="javascript:void(0)" class="closebtn" onclick="closeAnime01()"></a>
+        <div class="overlay-content">
+            <div class="overlay-media">
+                <p>극장판 논논비요리: 베케이션</p><iframe src="https://drive.google.com/file/d/1FRbGqb3s6Sz8Juax9m6n8x06CNW9mj__/preview" loading="lazy" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="header" data-stellar-background-ratio="0.5">
+        <div class="shadow">
+            <h1>극장판 논논비요리: 베케이션</h1>
+            <h4>劇場版 のんのんびより ばけーしょん</h4>
+        </div>
+    </div>
+    <div class="navbar">
+        <a href="../../index.html">Tippy</a>
+        <a class="next">&#10095;</a>
+        <a class="next">2018년</a>
+        <a class="next">&#10095;</a>
+        <a class="active">극장판 논논비요리: 베케이션</a>
+    </div>
+    <div class="row">
+        <div class="side">
+            <h2>극장판 논논비요리: 베케이션</h2>
+            <h4>劇場版 のんのんびより ばけーしょん</h4>
+            <script language="javascript">
+                var delay = 3000
+                var curindex = 0
+
+                var randomimages = new Array()
+
+                randomimages[0] = "https://lh3.google.com/u/0/d/1sFiuy0uNvpGLfY9dsX0dKVoms8s2uFlF"
+                randomimages[1] = "https://lh3.google.com/u/0/d/1seezGWe2Pz49X8RPiKf-KvzQWljJApg1"
+
+                var preload = new Array()
+
+                for (n = 0; n < randomimages.length; n++) {
+                    preload[n] = new Image()
+                    preload[n].src = randomimages[n]
+                }
+
+                document.write('<img name="defaultimage" src="' + randomimages[Math.floor(Math.random() * (randomimages.length))] + '"  style="width: 300px; height: auto; margin: 0px 0px 10px 0px;">')
+
+                function rotateimage() {
+
+                    if (curindex == (tempindex = Math.floor(Math.random() * (randomimages.length)))) {
+                        curindex = curindex == 0 ? 1 : curindex - 1
+                    } else
+                        curindex = tempindex
+
+                    document.images.defaultimage.src = randomimages[curindex]
+                }
+
+                setInterval("rotateimage()", delay)
+            </script>
+            <img src="https://lh3.google.com/u/0/d/1XfCqS6M4g2BwL5lK-HMxDPAI002606sl" width="300px" height="auto" />
+        </div>
+        <div class="main">
+            <div class="playlist">
+                <span style="cursor:pointer" onclick="openAnime01()">
+                    <table>
+                        <td>
+                            <div style="text-align:center; width: 40px;">01</div>
+                        </td>
+                        <td><img src="https://lh3.google.com/u/0/d/1sFiuy0uNvpGLfY9dsX0dKVoms8s2uFlF"></td>
+                        <td style="width: 100vw; padding: 30px;">극장판 논논비요리: 베케이션</td>
+                    </table>
+                </span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        극장판 논논비요리: 베케이션
+    </footer>
+    <button onclick="topFunction()" id="gttopbtn">맨 위로</button>
+    <script src="../../gototop.js"></script>
+</body>
+
+</html>
