@@ -33,6 +33,21 @@ body::-webkit-scrollbar-track {
     box-shadow: inset 0px 0px 5px white;
 }
 
+img {
+    border-radius: 10px;
+    padding: 0px;
+    border: none;
+}
+
+iframe {
+    width: 70vw;
+    height: 39.375vw;
+    border: 0px;
+    border-radius: 10px;
+}
+
+
+/* 헤더 부분 */
 .header {
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -41,7 +56,7 @@ body::-webkit-scrollbar-track {
     color: white;
     text-align: center;
     margin: 0;
-    padding: 22vh 1vh;
+    padding: 20vh 1vh;
 }
 
 .header h1 {
@@ -52,12 +67,8 @@ body::-webkit-scrollbar-track {
     text-shadow: 0px 0px 20px black;
 }
 
-img {
-    border-radius: 10px;
-    padding: 0px;
-    border: none;
-}
 
+/* navbar 부분 */
 .navbar {
     overflow: hidden;
     position: sticky;
@@ -92,6 +103,11 @@ img {
     margin: 0;
 }
 
+.google-login-img {
+    width: auto;
+    height: auto;
+}
+
 .announce {
     float: right;
     font-size: 20px;
@@ -106,10 +122,15 @@ img {
     float: right;
 }
 
+
+
+/* row */
 .row {
     display: flex;
 }
 
+
+/* 사이드 부분 */
 .side {
     background-color: #f1f1f1;
     padding: 20px 50px;
@@ -144,6 +165,13 @@ img {
     text-align: center;
 }
 
+.side-thumb-img {
+    width: 300px;
+    height: auto;
+}
+
+
+/* 메인 부분 */
 .main {
     background-color: white;
     padding: 20px;
@@ -183,11 +211,22 @@ img {
     border-radius: 10px;
 }
 
-iframe {
-    width: 70vw;
-    height: 39.375vw;
-    border: 0px;
-    border-radius: 10px;
+.main-thumb-img {
+    width: 300px;
+    height: 415px;
+    object-fit: cover;
+}
+
+.main-title {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+}
+
+.random-img {
+    width: 300px;
+    height: auto;
+    margin: 0px 0px 10px 0px;
 }
 
 .playlist {
@@ -220,11 +259,23 @@ iframe {
     border-radius: 10px;
 }
 
-.playlist span table td img {
+.playlist-num {
+    text-align: center;
+    width: 40px;
+}
+
+.playlist-img {
     width: 560px;
     height: 315px;
 }
 
+.playlist-title {
+    width: 100vw;
+    padding: 30px;
+}
+
+
+/* 영상 부분 */
 .overlay {
     height: 100%;
     width: 100%;
@@ -263,7 +314,6 @@ iframe {
   display: block;
 }
 
-
 .overlay .closebtn {
     position: absolute;
 }
@@ -293,7 +343,8 @@ footer {
     color: #ffffff;
 }
 
-@media (max-width: 1400px) {
+/* 모바일 */
+@media (max-width: 000px) {
 
 .header {
     padding: 14vh 1vh;
@@ -303,7 +354,7 @@ footer {
     display: none;
 }
 
-.playlist span table td img {
+.playlist-img {
     width: 40vw;
     height: auto;
 }

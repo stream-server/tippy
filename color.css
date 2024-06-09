@@ -44,14 +44,3 @@ footer {
 #gttopbtn:hover {
     background-color: #ECD9FF;
 }
-
-.list a table tr td {
-    width: 300px;
-    text-align: center;
-}
-
-.list a table tr img {
-    width: 300px;
-    height: 415px;
-    object-fit: cover;
-}
