@@ -333,12 +333,8 @@ footer {
     color: #ffffff;
 }
 
-/* 모바일 */
-@media (max-width: 000px) {
-
-.header {
-    padding: 14vh 1vh;
-}
+/* 1400px */
+@media (max-width: 1400px) {
 
 .side {
     display: none;
@@ -371,3 +367,38 @@ iframe {
 
 }
 }
+
+/* 700px */
+@media (max-width: 700px) {
+
+    .side {
+        display: none;
+    }
+    
+    .playlist-img {
+        width: 40vw;
+        height: auto;
+    }
+    
+    iframe {
+        width: 95vw;
+        height: 53.4375vw;
+    }
+    
+    .overlay-content {
+        width: 100vw;
+        height: 70vw;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .overlay-media {
+        width: 95vw;
+        height: 53.4375vw;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+    }
+    }
