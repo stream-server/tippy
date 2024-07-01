@@ -72,6 +72,7 @@ iframe {
     position: sticky;
     top: 0px;
     padding: 0px 5%;
+    height: 49px;
 }
 
 .navbar a {
