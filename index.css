@@ -338,7 +338,7 @@ footer {
 @media (max-width: 1400px) {
 
 .header {
-    padding: 14vh 1vh;
+    padding: 15vh 1vh;
 }
 
 .side {
@@ -348,6 +348,14 @@ footer {
 }
 
 /* 700px */
-@media (max-width: 00px) {
+@media (max-width: 700px) {
+
+.header {
+    padding: 10vh 1vh;
+}
+
+.side {
+    display: none;
+}
 
 }
