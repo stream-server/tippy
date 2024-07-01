@@ -336,6 +336,10 @@ footer {
 /* 1400px */
 @media (max-width: 1400px) {
 
+.header {
+    padding: 14vh 1vh;
+}
+
 .side {
     display: none;
 }
