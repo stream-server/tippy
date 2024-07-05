@@ -261,9 +261,14 @@ iframe {
     height: 315px;
 }
 
+.playlist-img img {
+    width: 560px;
+    height: 315px;
+}
+
 .playlist-title {
-    width: 100vw;
     padding: 30px;
+    width: 100vw;
 }
 
 /* 영상 부분 */
