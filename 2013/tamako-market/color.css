@@ -1,0 +1,63 @@
+body::-webkit-scrollbar-thumb {
+    background-color: #FF80BF;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #FFB7DA;
+}
+
+.header {
+    background-image: url(https://lh3.google.com/u/0/d/1LrC18pherngP65j_H6fUZZ9BWp0-I1h6=w3840-h2160);
+}
+
+.navbar {
+    background-color: #FF99CB;
+}
+
+.navbar a:hover {
+    background-color: #FFB7DA;
+}
+
+.navbar a.active {
+    background-color: #FF80BF;
+}
+
+.navbar a.next {
+    background-color: #FF99CB;
+}
+
+footer {
+    background-color: #FF99CB;
+}
+
+#gttopbtn {
+    background-color: #FF80BF;
+}
+
+#gttopbtn:hover {
+    background-color: #FFB7DA;
+}
+
+.navbar a {
+    color: #FFFFD0;
+}
+
+.navbar a:hover {
+    color: #FFFFD0;
+}
+
+.navbar a.active {
+    color: #FFFFD0;
+}
+
+.navbar a.next {
+    color: #FFFFD0;
+}
+
+footer {
+    color: #FFFFD0;
+}
+
+#gttopbtn {
+    color: #FFFFD0;
+}
