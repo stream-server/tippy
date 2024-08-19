@@ -39,25 +39,25 @@ footer {
 }
 
 .navbar a {
-    color: #000000;
+    color: #442206;
 }
 
 .navbar a:hover {
-    color: #000000;
+    color: #442206;
 }
 
 .navbar a.active {
-    color: #000000;
+    color: #442206;
 }
 
 .navbar a.next {
-    color: #000000;
+    color: #442206;
 }
 
 footer {
-    color: #000000;
+    color: #442206;
 }
 
 #gttopbtn {
-    color: #000000;
+    color: #442206;
 }
