@@ -39,8 +39,8 @@ footer {
 }
 
 .playlist span table td img {
-    width: 560px;
-    height : auto;
+    max-width: 560px;
+    object-fit: cover;
 }
 
 .middle {

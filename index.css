@@ -261,7 +261,7 @@ iframe {
 }
 
 .playlist-img img {
-    width: 560px;
+    width: auto;
     height: 315px;
 }
 
