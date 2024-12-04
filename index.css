@@ -355,7 +355,7 @@ footer {
 }
 
 .navbar {
-    height: 29px;
+    height: 32px;
 }
 
 .navbar a {
@@ -405,7 +405,7 @@ iframe {
 }
 
 #gttopbtn {
-    bottom: 10px;
+    bottom: 15px;
     right: 20px;
     font-size: 12px;
     padding: 12px 24px;
@@ -413,6 +413,7 @@ iframe {
 
 footer {
     font-size: 10px;
+    padding: 10px 0px;
 }
 
 
@@ -437,7 +438,7 @@ footer {
 }
 
 .navbar {
-    height: 31px;
+    height: 32px;
 }
 
 .navbar a {
