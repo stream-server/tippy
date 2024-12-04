@@ -43,17 +43,18 @@ footer {
     object-fit: cover;
 }
 
-.middle {
-    text-align: center;
-    padding: 12px 0px;
-    font-size: 20px;
-    background-color: #CBF08D;
-    background-image: none;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 10px;
+@media (max-width: 950px) {
+	
+	.playlist span table td img {
+    max-width: 240px;
 }
 
-.middle a:hover {
-    background-color: #CBF08D;
+}
+
+@media (max-width: 450px) {
+	
+	.playlist span table td img {
+    max-width: 160px;
+}
+
 }

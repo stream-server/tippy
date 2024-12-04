@@ -40,15 +40,23 @@ footer {
     background-color: #DDF5B3;
 }
 
-.list a table td img {
-    width: 560px;
-    height: 315px;
+.playlist a table td img {
+    max-width: 560px;
+    object-fit: cover;
 }
 
-@media (max-width: 1400px) {
-
-.list a table td img {
-    width: 40vw;
-    height: auto;
+@media (max-width: 950px) {
+	
+	.playlist a table td img {
+    max-width: 240px;
 }
+
+}
+
+@media (max-width: 450px) {
+	
+	.playlist a table td img {
+    max-width: 160px;
+}
+
 }
