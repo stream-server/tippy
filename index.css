@@ -160,14 +160,13 @@ iframe {
 
 /* 메인 부분 */
 .main {
-    background-color: white;
     padding: 20px;
     text-decoration: none;
 }
 
 .middle {
     text-align: center;
-    padding: 12px 0px;
+    padding: 12px;
     font-size: 20px;
     background-color: #E0C3FC;
     background-image: linear-gradient(62deg, #E0C3FC 20%, #8EC5FC 120%);
@@ -327,8 +326,8 @@ footer {
     color: #ffffff;
 }
 
-/* 950px */
-@media (max-width: 950px) {
+/* 1600px */
+@media (max-width: 1600px) {
 	
 .header h1 {
     font-size: 20px;
@@ -366,13 +365,13 @@ footer {
 }
 
 .main-thumb-img {
-    width: 150px;
-    height: 200px;
+    width: 18.2vw;
+    height: 27vw;
 }
 
 .main-title {
-    width: 150px;
-    height: 30px;
+    width: 18.2vw;
+    height: 35px;
     font-size: 12px;
 }
 
@@ -382,6 +381,7 @@ footer {
 
 .playlist a {
     font-size: 12px;
+	margin: auto;
 }
 
 .playlist-num {
@@ -428,8 +428,8 @@ footer {
 }
 
 
-/* 450px */
-@media (max-width: 450px) {
+/* 670px */
+@media (max-width: 670px) {
 
 .header {
     padding: 10vh 1vh;
@@ -471,12 +471,12 @@ footer {
 }
 
 .main-thumb-img {
-    width: 120px;
-    height: 170px;
+    width: 30vw;
+    height: 45vw;
 }
 
 .main-title {
-    width: 120px;
+    width: 30vw;
     height: 30px;
     font-size: 10px;
 }
