@@ -207,7 +207,7 @@ iframe {
     height: 60px;
     font-size: 18px;
     text-align: center;
-	overflow-wrap: anywhere;
+	word-break: keep-all;
 }
 
 /* 영상 사진 메인 부분 */
