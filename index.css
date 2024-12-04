@@ -178,6 +178,8 @@ iframe {
 .list {
     overflow: hidden;
     background-color: #ffffff;
+	padding: 0px;
+	margin: 0px;
 }
 
 .list a {
@@ -195,13 +197,13 @@ iframe {
 }
 
 .main-thumb-img {
-    width: 300px;
-    height: 415px;
+    width: 14vw;
+    height: 21vw;
     object-fit: cover;
 }
 
 .main-title {
-    width: 300px;
+    width: 14vw;
     height: 60px;
     font-size: 18px;
     text-align: center;
@@ -363,7 +365,7 @@ footer {
     padding: 8px 0px;
     font-size: 12px;
 }
-
+	
 .main-thumb-img {
     width: 18.2vw;
     height: 27vw;
