@@ -166,6 +166,12 @@ iframe {
     height: auto;
 }
 
+.random-img {
+    width: 300px;
+    height: auto;
+    margin: 0px 0px 10px 0px;
+}
+
 /* 메인 부분 */
 .main {
     background-color: white;
@@ -215,12 +221,7 @@ iframe {
     text-align: center;
 }
 
-.random-img {
-    width: 300px;
-    height: auto;
-    margin: 0px 0px 10px 0px;
-}
-
+/* 영상 사진 메인 부분 */
 .playlist {
     overflow: hidden;
     background-color: #ffffff;
@@ -345,8 +346,80 @@ footer {
     padding: 15vh 1vh;
 }
 
+.header h1 {
+    font-size: 30px;
+}
+
 .side {
     display: none;
+}
+
+.navbar {
+    height: 39px;
+}
+
+.navbar a {
+    padding: 10px 16px;
+    font-size: 16px;
+}
+
+.main {
+    padding: 15px;
+}
+
+.playlist {
+    font-size: 14px;
+}
+
+.playlist a {
+    font-size: 14px;
+}
+
+.playlist-img img {
+    width: auto;
+    height: 225px;
+}
+
+.playlist-title {
+    padding: 20px;
+}
+
+iframe {
+    width: 95vw;
+    height: 53.4375vw;
+}
+
+.overlay-content {
+    position: relative;
+    width: 95vw;
+    height: 53.4375vw;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.overlay-media {
+    position: relative;
+    width: 95vw;
+    height: auto;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    color: white;
+    font-size: 16px;
+}
+
+#gttopbtn {
+    bottom: 15px;
+    right: 25px;
+    font-size: 14px;
+    padding: 10px 25px;
+}
+
+footer {
+    font-size: 16px;
 }
 
 }
@@ -358,8 +431,80 @@ footer {
     padding: 10vh 1vh;
 }
 
+.header h1 {
+    font-size: 20px;
+}
+
 .side {
     display: none;
+}
+
+.navbar {
+    height: 29px;
+}
+
+.navbar a {
+    padding: 8px 12px;
+    font-size: 12px;
+}
+
+.main {
+    padding: 10px;
+}
+
+.playlist {
+    font-size: 10px;
+}
+
+.playlist a {
+    font-size: 10px;
+}
+
+.playlist-img img {
+    width: auto;
+    height: 135px;
+}
+
+.playlist-title {
+    padding: 10px;
+}
+
+iframe {
+    width: 95vw;
+    height: 53.4375vw;
+}
+
+.overlay-content {
+    position: relative;
+    width: 95vw;
+    height: 53.4375vw;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.overlay-media {
+    position: relative;
+    width: 95vw;
+    height: auto;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    color: white;
+    font-size: 12px;
+}
+
+#gttopbtn {
+    bottom: 10px;
+    right: 20px;
+    font-size: 10px;
+    padding: 10px 20px;
+}
+
+footer {
+    font-size: 12px;
 }
 
 }
