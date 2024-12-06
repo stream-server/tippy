@@ -46,6 +46,11 @@ iframe {
     border-radius: 10px;
 }
 
+p {
+	padding: 10px;
+	margin: 0px;
+}
+
 /* 헤더 부분 */
 .header {
     background-attachment: fixed;
@@ -197,13 +202,13 @@ iframe {
 }
 
 .main-thumb-img {
-    width: 14vw;
-    height: 21vw;
+    width: 13vw;
+    height: 19.5vw;
     object-fit: cover;
 }
 
 .main-title {
-    width: 14vw;
+    width: 13vw;
     height: 60px;
     font-size: 18px;
     text-align: center;
@@ -328,9 +333,13 @@ footer {
     color: #ffffff;
 }
 
-/* 1600px */
-@media (max-width: 1600px) {
-	
+/* 1400px */
+@media (max-width: 1400px) {
+
+p {
+	padding: 6px;
+}
+
 .header h1 {
     font-size: 20px;
 }
@@ -367,7 +376,7 @@ footer {
 }
 	
 .main-thumb-img {
-    width: 18.2vw;
+    width: 18vw;
     height: 27vw;
 }
 
@@ -432,6 +441,10 @@ footer {
 
 /* 670px */
 @media (max-width: 670px) {
+
+p {
+	padding: 4px;
+}
 
 .header {
     padding: 10vh 1vh;
