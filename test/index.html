@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="color.css" />
+</head>
+<body>
+<div id="iframe-container"></div>
+<span id="span1" data-iframe-url="https://drive.google.com/file/d/1XgnxxCYjlmeNtV-Wzq9L5w8WT-sJBE0w/preview?t=10" >iframe 1</span>
+<span id="span2" data-iframe-url="https://drive.google.com/file/d/1XgnxxCYjlmeNtV-Wzq9L5w8WT-sJBE0w/preview?t=20">iframe 2</span>
+<span id="span3" data-iframe-url="https://drive.google.com/file/d/1XgnxxCYjlmeNtV-Wzq9L5w8WT-sJBE0w/preview?t=30">iframe 3</span>
+
+
+
+  <script>
+const spans = document.querySelectorAll('span');
+const iframeContainer = document.getElementById('iframe-container');
+let currentIframe;
+
+spans.forEach(span => {
+    span.addEventListener('click', () => {
+        const iframeUrl = span.dataset.iframeUrl;
+
+        // 기존 iframe 제거
+        if (currentIframe) {
+            iframeContainer.removeChild(currentIframe);
+        }
+
+        // 새로운 iframe 생성 및 추가
+        const newIframe = document.createElement('iframe');
+        newIframe.src = iframeUrl;
+        // width 속성 제거 (CSS에서 스타일을 적용할 예정)
+        // iframeContainer.appendChild(newIframe);
+        newIframe.allowFullscreen = true;
+        // iframeContainer에 클래스 추가
+        iframeContainer.classList.add('iframe-container');
+
+        // 새로운 iframe을 iframeContainer에 추가
+        iframeContainer.appendChild(newIframe);
+
+        currentIframe = newIframe;
+    });
+});
+  </script>
+
+
+</body>
+</html>
