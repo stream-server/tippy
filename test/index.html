@@ -10,42 +10,24 @@
     <img src="https://lh3.google.com/u/0/d/1-cFdYO8RAorzBwOFSS7UBnlrvPPPHOvc"/>
     <li id="iframe-container"></li>
   </ul>
-
+  <div id="main-video-title"></div>
 <ul class="main-playlist">
-<span data-iframe-url="https://drive.google.com/file/d/1XgnxxCYjlmeNtV-Wzq9L5w8WT-sJBE0w/preview?t=122" >
+<span data-text="논논비요리 오프닝" data-iframe-url="https://drive.google.com/file/d/1XgnxxCYjlmeNtV-Wzq9L5w8WT-sJBE0w/preview?t=122" >
                     <ul class="playlist-main">
                         <li class="playlist-img"><img src="https://lh3.google.com/u/0/d/1-cFdYO8RAorzBwOFSS7UBnlrvPPPHOvc"></li>
                         <li class="playlist-title">오프닝</li>
                     </ul>
 </span>
-<span data-iframe-url="https://drive.google.com/file/d/1XgnxxCYjlmeNtV-Wzq9L5w8WT-sJBE0w/preview?t=650">
+<span data-text="논논비요리 파트 2" data-iframe-url="https://drive.google.com/file/d/1XgnxxCYjlmeNtV-Wzq9L5w8WT-sJBE0w/preview?t=650">
                     <ul class="playlist-main">
                         <li class="playlist-img"><img src="https://lh3.google.com/u/0/d/1-cFdYO8RAorzBwOFSS7UBnlrvPPPHOvc"></li>
                         <li class="playlist-title">파트 2</li>
                     </ul>
 </span>
-<span data-iframe-url="https://drive.google.com/file/d/1XgnxxCYjlmeNtV-Wzq9L5w8WT-sJBE0w/preview?t=1325">
+<span data-text="논논비요리 엔딩" data-iframe-url="https://drive.google.com/file/d/1XgnxxCYjlmeNtV-Wzq9L5w8WT-sJBE0w/preview?t=1325">
                     <ul class="playlist-main">
                         <li class="playlist-img"><img src="https://lh3.google.com/u/0/d/1-cFdYO8RAorzBwOFSS7UBnlrvPPPHOvc"></li>
                         <li class="playlist-title">엔딩</li>
-                    </ul>
-</span>
-<span data-iframe-url="https://drive.google.com/file/d/1XgnxxCYjlmeNtV-Wzq9L5w8WT-sJBE0w/preview?t=122" >
-                    <ul class="playlist-main">
-                        <li class="playlist-img"><img src="https://lh3.google.com/u/0/d/1-cFdYO8RAorzBwOFSS7UBnlrvPPPHOvc"></li>
-                        <li class="playlist-title">테스트<br>Test</li>
-                    </ul>
-</span>
-<span data-iframe-url="https://drive.google.com/file/d/1XgnxxCYjlmeNtV-Wzq9L5w8WT-sJBE0w/preview?t=650">
-                    <ul class="playlist-main">
-                        <li class="playlist-img"><img src="https://lh3.google.com/u/0/d/1-cFdYO8RAorzBwOFSS7UBnlrvPPPHOvc"></li>
-                        <li class="playlist-title">테스트<br>Test</li>
-                    </ul>
-</span>
-<span data-iframe-url="https://drive.google.com/file/d/1XgnxxCYjlmeNtV-Wzq9L5w8WT-sJBE0w/preview?t=1325">
-                    <ul class="playlist-main">
-                        <li class="playlist-img"><img src="https://lh3.google.com/u/0/d/1-cFdYO8RAorzBwOFSS7UBnlrvPPPHOvc"></li>
-                        <li class="playlist-title">테스트<br>Test</li>
                     </ul>
 </span>
 <span data-iframe-url="https://drive.google.com/file/d/1XgnxxCYjlmeNtV-Wzq9L5w8WT-sJBE0w/preview?t=122" >
@@ -72,32 +54,35 @@
 <script>
 const spans = document.querySelectorAll('span');
 const iframeContainer = document.getElementById('iframe-container');
+const resultDiv = document.getElementById('main-video-title');
 let currentIframe;
 
 spans.forEach(span => {
-    span.addEventListener('click', () => {
-        const iframeUrl = span.dataset.iframeUrl;
+  span.addEventListener('click', () => {
+    const iframeUrl = span.dataset.iframeUrl;
+    const text = span.dataset.text;
 
-        // 기존 iframe 제거
-        if (currentIframe) {
-            iframeContainer.removeChild(currentIframe);
-        }
+    // 기존 iframe 제거
+    if (currentIframe) {
+      iframeContainer.removeChild(currentIframe);
+    }
 
-        // 새로운 iframe 생성 및 추가
-        const newIframe = document.createElement('iframe');
-        newIframe.src = iframeUrl;
-        newIframe.allowFullscreen = true;
-        // iframeContainer에 클래스 추가
-        iframeContainer.classList.add('iframe-container');
+    // 새로운 iframe 생성 및 추가
+    if (iframeUrl) {
+      const newIframe = document.createElement('iframe');
+      newIframe.src = iframeUrl;
+      newIframe.allowFullscreen = true;
+	  iframeContainer.classList.add('iframe-container');
+      iframeContainer.appendChild(newIframe);
+      currentIframe = newIframe;
+    }
 
-        // 새로운 iframe을 iframeContainer에 추가
-        iframeContainer.appendChild(newIframe);
-
-        currentIframe = newIframe;
-    });
+    // 결과 div에 텍스트 출력
+    if (text) {
+      resultDiv.textContent = text;
+    }
+  });
 });
 </script>
-
-
 </body>
 </html>
