@@ -1,30 +1,86 @@
-.iframe-container iframe {
-    position: fixed;
-    width: 1280px;
-	height: 720px;
+body {
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.main-video {
+	max-width: 1280px;
+	max-height: 720px;
+	padding: 0.5rem;
+	display: flex;
+}
+
+.main-video li {
+  flex: 1; /* 각 요소가 공간을 동일하게 차지 */
+}
+
+.main-video img{
+	width: 100vw;
+	height: auto;
+    max-width: 1280px;
+	max-height: 720px;
 	border: 0px;
 	border-radius: 10px;
-	z-index: 2;
+	overflow: hidden
 }
 
-.video-img  img{
-    position: fixed;
-    width: 1280px;
-	height: 720px;
+.iframe-container iframe {
+	width: 100vw;
+	height: 56.25vw;
+	max-width: 1280px;
+	max-height: 720px;
+	border: 0px;
 	border-radius: 10px;
-	z-index: 1;
 }
 
-.video-img {
-    width: 1280px;
+
+
+.main-playlist {
+	width: 600px;
 	height: 720px;
+	padding: 0 0.5rem;
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
-span {
-	padding: 15px 30px;
+.main-playlist :hover {
+	background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.playlist-main {
+	padding: 0px;
+	margin: 0px;
+    border-radius: 10px;
     cursor: pointer;
+	display: flex;
+	flex-direction: row;
 }
 
-span table {
-	border: 1px;
+.playlist-img img {
+	width: 160px;
+	height: 90px;
+	border-radius: 10px;
+	align-content: center;
+}
+
+.playlist-title {
+	align-content: center;
+	font-size: 1rem;
+    font-weight: bold;
+	padding: 1rem;
 }
