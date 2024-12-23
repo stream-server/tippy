@@ -1,0 +1,43 @@
+@media (max-width: 1280px) {
+
+.main {
+	grid-template-columns: 95vw;
+	grid-template-rows: 53.4375vw 50px 520px; 
+	padding: 0.5rem 0rem;
+}
+
+.main-video {
+	width: 95vw;
+	height: 53.4375vw;
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+}
+
+.main-video img{
+	width: 95vw;
+	height: 53.4375vw;
+}
+
+.iframe-container iframe {
+	width: 95vw;
+	height: 53.4375vw;
+}
+
+.main-video-title {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+}
+
+.main-playlist {
+	width: 95vw;
+	height: 520px;
+	grid-column: 1 / 2;
+	grid-row: 3 / 4;
+}
+
+.playlist-img img {
+	width: 160px;
+	height: 90px;
+}
+
+}
