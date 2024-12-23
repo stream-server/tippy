@@ -19,3 +19,12 @@
     width: 1280px;
 	height: 720px;
 }
+
+span {
+	padding: 15px 30px;
+    cursor: pointer;
+}
+
+span table {
+	border: 1px;
+}
