@@ -15,9 +15,13 @@ ul, li {
 	justify-content: center;
 	align-items: center;
 	align-content: center;
+	padding: 1rem 2rem;
 }
 
+
+
 .main-video {
+	width: 50vw;
 	max-width: 1280px;
 	max-height: 720px;
 	padding: 0.5rem;
@@ -29,8 +33,8 @@ ul, li {
 }
 
 .main-video img{
-	width: 100vw;
-	height: auto;
+	width: 50vw;
+	height: 28.125vw;
     max-width: 1280px;
 	max-height: 720px;
 	border: 0px;
@@ -39,19 +43,20 @@ ul, li {
 }
 
 .iframe-container iframe {
-	width: 100vw;
-	height: 56.25vw;
+	width: 50vw;
+	height: 28.125vw;
 	max-width: 1280px;
 	max-height: 720px;
 	border: 0px;
 	border-radius: 10px;
+	z-index: 1;
 }
 
 
 
 .main-playlist {
-	width: 600px;
-	height: 720px;
+	width: 500px;
+	height: 28.125vw;
 	padding: 0 0.5rem;
 	overflow-x: hidden;
 	overflow-y: scroll;
@@ -83,4 +88,44 @@ ul, li {
 	font-size: 1rem;
     font-weight: bold;
 	padding: 1rem;
+}
+
+@media (max-width: 1191px) {
+
+.main {
+	padding: 0.5rem 1rem;
+}
+
+.main-video {
+	width: 95vw;
+	height: 53.4375vw;
+}
+
+.main-video img{
+	width: 95vw;
+	height: 53.4375vw;
+}
+
+.iframe-container iframe {
+	width: 95vw;
+	height: 53.4375vw;
+}
+
+.main-playlist {
+	width: 95vw;
+	height: ;
+}
+
+.playlist-img img {
+	width: 160px;
+	height: 90px;
+}
+
+.playlist-title {
+	align-content: center;
+	font-size: 1rem;
+    font-weight: bold;
+	padding: 1rem;
+}
+
 }
