@@ -1,12 +1,14 @@
 const spans = document.querySelectorAll('span');
 const iframeContainer = document.getElementById('iframe-container');
-const resultDiv = document.getElementById('main-video-subtitle');
+const MainVideoTitle = document.getElementById('main-video-title');
+const MainVideoSubtitle = document.getElementById('main-video-subtitle');
 let currentIframe;
 
 spans.forEach(span => {
     span.addEventListener('click', () => {
         const iframeUrl = span.dataset.iframeUrl;
-        const text = span.dataset.text;
+        const title = span.dataset.title;
+        const subtitle = span.dataset.subtitle;
 
         // 기존 iframe 제거
         if (currentIframe) {
@@ -24,8 +26,12 @@ spans.forEach(span => {
         }
 
         // 결과 div에 텍스트 출력
-        if (text) {
-            resultDiv.textContent = text;
+        if (title) {
+            MainVideoTitle.textContent = title;
+        }
+		
+        if (subtitle) {
+            MainVideoSubtitle.textContent = subtitle;
         }
     });
 });

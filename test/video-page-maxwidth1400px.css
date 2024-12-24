@@ -1,8 +1,8 @@
-@media (max-width: 1280px) {
+@media (max-width: 1400px) {
 
     .video-page {
         grid-template-columns: 95vw;
-        grid-template-rows: 53.4375vw 2rem 2rem 50rem;
+        grid-template-rows: 53.4375vw 2.5rem 2.5rem 50rem;
         padding: 1rem;
     }
 
