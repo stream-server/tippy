@@ -31,11 +31,12 @@ ul, li {
 	z-index: 1;
 }
 
-.main-video-title {
+#main-video-title {
+	padding: 0 0 0 10px;
 }
 
-#main-video-title {
-	font-weight: bold;
+#main-video-subtitle {
+	padding: 0 0 0 10px;
 }
 
 .main-playlist {
@@ -62,7 +63,6 @@ ul, li {
 	width: 120px;
 	height: 90px;
     overflow: hidden;
-	padding: 0.5rem;
 }
 
 .playlist-img img {
@@ -74,6 +74,5 @@ ul, li {
 }
 
 .playlist-title {
-    font-weight: bold;
 	align-content: center;
 }

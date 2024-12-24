@@ -2,7 +2,7 @@
 
 .video-page {
 	grid-template-columns: 98vw;
-	grid-template-rows: 55.125vw 10px 500px; 
+	grid-template-rows: 55.125vw 1rem 1rem 50rem; 
 	padding: 0.4rem;
 }
 
@@ -23,24 +23,32 @@
 	height: 55.125vw;
 }
 
-.main-video-title {
+#main-video-title {
+	font-size: 1rem;
 	grid-column: 1 / 2;
 	grid-row: 2 / 3;
 }
 
-#main-video-title {
+#main-video-subtitle {
 	font-size: 1rem;
-  }
+	grid-column: 1 / 2;
+	grid-row: 3 / 4;
+}
 
 .main-playlist {
 	width: 98vw;
 	height: 500px;
 	grid-column: 1 / 2;
-	grid-row: 3 / 4;
+	grid-row: 4 / 5;
+}
+
+.playlist-img {
+	padding: 0.2rem;
 }
 
 .playlist-title {
 	font-size: 1rem;
+	padding: 0 0 0 0.6rem;
 }
 
 }

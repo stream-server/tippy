@@ -1,6 +1,6 @@
         const spans = document.querySelectorAll('span');
         const iframeContainer = document.getElementById('iframe-container');
-        const resultDiv = document.getElementById('main-video-title');
+        const resultDiv = document.getElementById('main-video-subtitle');
         let currentIframe;
 
         spans.forEach(span => {
