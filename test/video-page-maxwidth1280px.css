@@ -3,7 +3,7 @@
 .video-page {
 	grid-template-columns: 95vw;
 	grid-template-rows: 53.4375vw 30px 500px; 
-	padding: 0.5rem 0rem;
+	padding: 1rem;
 }
 
 .main-video {
@@ -29,7 +29,7 @@
 }
 
 #main-video-title {
-	font-size: 1rem;
+	font-size: 1.6rem;
   }
 
 .main-playlist {
@@ -40,8 +40,7 @@
 }
 
 .playlist-title {
-	font-size: 1rem;
-	padding: 0 0 0 0.8rem;
+	font-size: 1.6rem;
 }
 
 }

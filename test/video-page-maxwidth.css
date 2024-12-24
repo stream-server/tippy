@@ -1,9 +1,9 @@
 @media (min-width: 1281px) {
 
 .video-page {
-	grid-template-columns: 50vw 500px;
+	grid-template-columns: 50vw 600px;
 	grid-template-rows: 28.125vw 40px;
-	padding: 1rem 2rem;
+	padding: 2rem;
 }
 
 .main-video {
@@ -29,19 +29,18 @@
 }
 
 #main-video-title {
-	font-size: 1.2rem;
+	font-size: 2rem;
   }
 
 .main-playlist {
-	width: 500px;
+	width: 600px;
 	height: 28.125vw;
 	grid-column: 2 / 3;
 	grid-row: 1 / 2;
 }
 
 .playlist-title {
-	font-size: 1rem;
-	padding: 0 0 0 1rem;
+	font-size: 1.8rem;
 }
 
 }
