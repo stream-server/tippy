@@ -1,8 +1,8 @@
 @media (max-width: 1280px) {
 
-.main {
+.video-page {
 	grid-template-columns: 95vw;
-	grid-template-rows: 53.4375vw 50px 1000px; 
+	grid-template-rows: 53.4375vw 30px 500px; 
 	padding: 0.5rem 0rem;
 }
 
@@ -34,15 +34,14 @@
 
 .main-playlist {
 	width: 95vw;
-	height: 1000px;
-	overflow-y: hidden;
+	height: 500px;
 	grid-column: 1 / 2;
 	grid-row: 3 / 4;
 }
 
-.playlist-img img {
-	width: 160px;
-	height: 90px;
+.playlist-title {
+	font-size: 1rem;
+	padding: 0 0 0 0.8rem;
 }
 
 }
