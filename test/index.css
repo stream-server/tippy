@@ -1,13 +1,13 @@
 html {
     font-size: 10px;
-    font-weight: bold;
     scroll-behavior: smooth;
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Quicksand';
+    font-family: "Noto Sans KR";
+    font-weight: 500;
     -webkit-user-select: none;
     /* Safari */
     -ms-user-select: none;
