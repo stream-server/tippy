@@ -43,11 +43,11 @@
     }
 
 .main-playlist::-webkit-scrollbar {
-    width: 4px;
+    width: 6px;
 }
 
 .main-playlist::-webkit-scrollbar-thumb {
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
     .playlist-img {
