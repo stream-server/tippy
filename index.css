@@ -202,13 +202,13 @@ p {
 }
 
 .main-thumb-img {
-    width: 13vw;
-    height: 19.5vw;
+    width: calc((100vw - 480px) / 7);
+    height: 450px;
     object-fit: cover;
 }
 
 .main-title {
-    width: 13vw;
+    width: calc((100vw - 480px) / 7);
     height: 60px;
     font-size: 18px;
     text-align: center;
