@@ -1,10 +1,37 @@
 @media (min-width: 1281px) {
 
+    .navbar {
+        height: 49px;
+        padding: 0 calc((50vw - 600px) / 2);
+        margin: 20px 0;
+    }
+
+    .navbar a {
+        padding: 12px 20px;
+        font-size: 20px;
+    }
+
+    .navbar a:hover {
+        text-shadow: 0 0 20px black;
+    }
+
+    .navbar a.next {
+        text-shadow: none;
+    }
+
+    .navbar a.year {
+        text-shadow: none;
+    }
+
+    .navbar a.title {
+        text-shadow: none;
+    }
+
     .video-page {
         grid-template-columns: 50vw 600px;
-        grid-template-rows: 28.125vw 30px 30px;
-	    gap: 10px;
-        padding: 20px;
+        grid-template-rows: 28.125vw 32px 32px;
+        gap: 10px;
+        padding: 0 0 20px 0;
     }
 
     .main-video {
@@ -58,7 +85,8 @@
     }
 
     .playlist-title {
-        width: calc(600px - 160px);
+        width: calc(600px - 188px);
+        /*padding 8px+img 160px+scrollbar 10px+title padding 10px*/
         font-size: 18px;
         padding: 0 0 0 10px;
     }
