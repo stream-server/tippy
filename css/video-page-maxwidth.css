@@ -25,6 +25,7 @@
 
     .navbar a.title {
         text-shadow: none;
+		overflow: hidden;
     }
 
     .video-page {
