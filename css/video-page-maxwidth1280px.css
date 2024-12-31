@@ -1,4 +1,4 @@
-@media (max-width: 1280px) {
+@media (max-width: 1400px) {
 
     .navbar {
         height: 45px;
@@ -25,11 +25,12 @@
 
     .navbar a.title {
         text-shadow: none;
+		overflow: hidden;
     }
 
     .video-page {
         grid-template-columns: 80vw;
-        grid-template-rows: 45vw 27px 27px auto;
+        grid-template-rows: 45vw 28px 28px auto;
         gap: 8px;
         padding: 0 0 10px 0;
     }
@@ -65,8 +66,8 @@
 
     .main-playlist {
         width: 80vw;
-        height: calc(100vh - 45vw - 153px);
-        /*navbar 65px+gap 24px+text 54px+bottom padding 10px*/
+        height: calc(100vh - 45vw - 155px);
+        /*navbar 65px+gap 24px+text 56px+bottom padding 10px*/
         min-height: 400px;
         grid-column: 1 / 2;
         grid-row: 4 / 5;

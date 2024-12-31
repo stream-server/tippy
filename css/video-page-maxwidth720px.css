@@ -1,7 +1,7 @@
 @media (max-width: 720px) {
 
     .navbar {
-        height: 30px;
+        height: 31px;
         padding: 0 calc((100vw - 95vw) / 2);
         margin: 8px 0;
         text-align: center
@@ -10,7 +10,7 @@
     .navbar a {
         float: none;
         display: inline-block;
-        padding: 8px;
+        padding: 8px 20px;
         font-size: 12px;
     }
 
@@ -32,9 +32,9 @@
 
     .video-page {
         grid-template-columns: 95vw;
-        grid-template-rows: 53.4375vw 19px 19px auto;
+        grid-template-rows: 53.4375vw 22px 22px auto;
         gap: 4px;
-        padding: 0 0 4px 0;
+        padding: 0 0 8px 0;
     }
 
     .main-video {
@@ -68,8 +68,8 @@
 
     .main-playlist {
         width: 95vw;
-        height: calc(100vh - 53.4375vw - 106px);
-        /*navbar 46px+gap 12px+text 38px+bottom padding 4px*/
+        height: calc(100vh - 53.4375vw - 111px);
+        /*navbar 47px+gap 12px+text 44px+bottom padding 8px*/
         min-height: 400px;
         grid-column: 1 / 2;
         grid-row: 4 / 5;
