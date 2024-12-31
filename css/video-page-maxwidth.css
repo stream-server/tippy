@@ -1,14 +1,13 @@
-@media (min-width: 1601px) {
+@media (min-width: 1281px) {
 
     .navbar {
         height: 51px;
-        padding: 0 calc((40vw - 600px) / 2);
-        /*100vw-iframe60vw-playlist600px*/
-        margin: 20px 0;
+        padding: 0 max(60px, calc((100vw - 50vw - 600px) / 2));
+        margin: 16px 0;
     }
 
     .navbar a {
-        padding: 12px 10px;
+        padding: 12px 12px;
         font-size: 20px;
     }
 
@@ -30,26 +29,26 @@
     }
 
     .video-page {
-        grid-template-columns: 60vw 600px;
-        grid-template-rows: 33.75vw 32px 32px;
+        grid-template-columns: 50vw 600px;
+        grid-template-rows: 28.125vw 32px 32px;
         gap: 10px;
     }
 
     .main-video {
-        width: 60vw;
-        height: 33.75vw;
+        width: 50vw;
+        height: 28.125vw;
         grid-column: 1 / 2;
         grid-row: 1 / 2;
     }
 
     .main-video img {
-        width: 60vw;
-        height: 33.75vw;
+        width: 50vw;
+        height: 28.125vw;
     }
 
     .iframe-container iframe {
-        width: 60vw;
-        height: 33.75vw;
+        width: 50vw;
+        height: 28.125vw;
     }
 
     #main-video-title {
@@ -66,7 +65,7 @@
 
     .main-playlist {
         width: 600px;
-        height: 33.75vw;
+        height: 28.125vw;
         grid-column: 2 / 3;
         grid-row: 1 / 2;
     }
