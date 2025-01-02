@@ -79,8 +79,6 @@ span {
 }
 
 .playlist-main {
-    padding: 0;
-    margin: 0;
     border-radius: 10px;
     cursor: pointer;
     display: flex;
