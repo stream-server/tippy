@@ -32,8 +32,8 @@
     .video-page {
         grid-template-columns: 80vw;
         grid-template-rows: 45vw 28px 28px auto;
-        gap: 4px;
-        padding: 0 0 10px 0;
+        gap: 6px;
+        padding: 0 0 12px 0;
     }
 
     .main-video {
@@ -67,8 +67,8 @@
 
     .main-playlist {
         width: 80vw;
-        height: calc(100vh - 45vw - 143px);
-        /*navbar 65px+gap 12px+text 56px+bottom padding 10px*/
+        height: calc(100vh - 45vw - 149px);
+        /*navbar 65px+gap 18px+text 54px+bottom padding 12px*/
         min-height: 400px;
         grid-column: 1 / 2;
         grid-row: 4 / 5;
