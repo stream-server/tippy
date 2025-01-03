@@ -44,12 +44,7 @@
         grid-row: 1 / 2;
     }
 
-    .main-video img {
-        width: 95vw;
-        height: 53.4375vw;
-    }
-
-    .iframe-container iframe {
+    .video-main iframe {
         width: 95vw;
         height: 53.4375vw;
     }

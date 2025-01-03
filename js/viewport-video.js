@@ -1,5 +1,5 @@
 const spans = document.querySelectorAll('span');
-const iframeContainer = document.getElementById('iframe-container');
+const VideoMain = document.getElementById('video-main');
 const MainVideoTitle = document.getElementById('main-video-title');
 const MainVideoSubtitle = document.getElementById('main-video-subtitle');
 let currentIframe;
@@ -12,7 +12,7 @@ spans.forEach(span => {
 
         // 기존 iframe 제거
         if (currentIframe) {
-            iframeContainer.removeChild(currentIframe);
+            VideoMain.removeChild(currentIframe);
         }
 
         // 새로운 iframe 생성 및 추가
@@ -20,8 +20,8 @@ spans.forEach(span => {
             const newIframe = document.createElement('iframe');
             newIframe.src = iframeUrl;
             newIframe.allowFullscreen = true;
-            iframeContainer.classList.add('iframe-container');
-            iframeContainer.appendChild(newIframe);
+            VideoMain.classList.add('video-main');
+            VideoMain.appendChild(newIframe);
             currentIframe = newIframe;
         }
 
