@@ -74,10 +74,6 @@ ul, li {
     border: 2px solid transparent;
 }
 
-span {
-    border-bottom: 1px solid grey;
-}
-
 .playlist-main {
     border-radius: 10px;
     cursor: pointer;

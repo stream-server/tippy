@@ -9,7 +9,7 @@
     .navbar a {
         padding: 0 12px;
         font-size: 20px;
-		line-height: 51px;
+        line-height: 51px;
     }
 
     .navbar a:hover {
@@ -26,7 +26,7 @@
 
     .navbar a.title {
         text-shadow: none;
-		overflow: hidden;
+        overflow: hidden;
     }
 
     .video-page {
