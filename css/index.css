@@ -3,8 +3,8 @@ html {
 }
 
 body {
-    margin: 0;
     padding: 0;
+    margin: 0;
     font-family: "Quicksand";
     font-weight: bold;
     font-style: normal;
@@ -14,4 +14,19 @@ body {
     /* IE 10 and IE 11 */
     user-select: none;
     /* Standard syntax */
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-image: url(https://lh3.google.com/u/0/d/14YFZXOlIzVMShY7GeHYuLnnxyTcoG3W8=w3840-h2160);
 }
