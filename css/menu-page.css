@@ -66,22 +66,12 @@ body::-webkit-scrollbar-thumb {
     width: 300px;
     padding: 20px 50px;
     background-color: #f0f0f0;
-}
-
-.side-title {
-	font-size: 24px;
-    padding: 20px 0;
-}
-
-.side-year {
-    width: 300px;
-    background-color: #f1f1f1;
     overflow: hidden;
     text-align: center;
 	flex-direction: column;
 }
 
-.side-year a {
+.row-side a {
     color: #000;
     font-size: 18px;
     padding: 4px 0;
@@ -89,14 +79,14 @@ body::-webkit-scrollbar-thumb {
 	display: inline-block;
 }
 
-.side-year ul {
+.row-side ul {
     width: 300px;
     height: 50px;
     text-align: center;
     line-height: 50px;
 }
 
-.side-year ul:hover {
+.row-side ul:hover {
     background-color: #ECD9FF;
     border-radius: 10px;
 }
@@ -131,7 +121,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .list-select {
-	width: calc((100vw - 430px) / 7);
+	width: calc((100vw - 430px) / 5);
 }
 
 .list-select a{
@@ -139,8 +129,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .list-img img{
-	width: calc((100vw - 514px) / 7);
-    height: calc(((100vw - 430px) / 7) * 1.5);
+	width: calc((100vw - 514px) / 5);
+    height: calc(((100vw - 430px) / 5) * 1.5);
 	padding: 6px 6px 0 6px;
     object-fit: cover;
     border-radius: 10px;
@@ -148,12 +138,15 @@ body::-webkit-scrollbar-thumb {
 
 .list-title {
 	width: auto;
-    height: 60px;
-	padding: 0 6px;
+    height: 70px;
+	padding: 4px 6px;
     font-size: 18px;
     color: #000000;
     text-align: center;
 	align-content: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 footer {
