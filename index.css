@@ -202,7 +202,7 @@ p {
 }
 
 .main-thumb-img {
-    width: calc((100vw - 480px) / 7);
+    width: 300px;
     height: 450px;
     object-fit: cover;
 }
