@@ -2,7 +2,7 @@
 
     .navbar {
         height: 51px;
-        padding: 0 max(60px, calc((100vw - 50vw - 600px) / 2));
+        padding: 0 max(60px, calc((50vw - 600px) / 2));
         margin: 16px 0;
     }
 
@@ -81,7 +81,7 @@
     }
 
     .playlist-title {
-        width: calc(600px - 188px);
+        width: 412px;
         /*img padding 8px + img 160px + scrollbar 10px + title padding 10px*/
         font-size: 18px;
         padding: 0 0 0 10px;

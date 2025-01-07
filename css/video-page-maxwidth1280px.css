@@ -2,7 +2,7 @@
 
     .navbar {
         height: 45px;
-        padding: 0 calc((100vw - 80vw) / 2);
+        padding: 0 10vw;
         margin: 10px 0;
     }
 
