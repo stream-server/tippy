@@ -30,7 +30,7 @@
     /* main 부분 */
     .row-main {
         width: calc(100vw - 30px);
-        padding: 10px;
+        padding: 0 10px;
     }
 
     .main-middle {

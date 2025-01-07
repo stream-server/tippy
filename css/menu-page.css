@@ -54,6 +54,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* main 부분 */
+
+.row-main {
+    padding: 0 10px;
+}
+	
 .main-middle {
     color: #ffffff;
     text-align: center;

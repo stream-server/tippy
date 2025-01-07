@@ -5,11 +5,7 @@
         font-size: 40px;
         padding: 35vh 0;
     }
-
-    .header-shadow {
-        text-shadow: 0 0 20px black;
-    }
-
+	
 	/* navbar 부분 */
     .navbar {
         height: 49px;
@@ -59,7 +55,6 @@
     /* main 부분 */
     .row-main {
         width: calc(100vw - 420px);
-        padding: 10px;
     }
 
     .main-middle {
