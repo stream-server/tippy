@@ -6,8 +6,13 @@
 	
 	/* 헤더 부분 */
     .header {
+	    background-size: auto calc(20vh + 25px);
+        background-position: center top;
+    }
+	
+	.header-title {
         font-size: 20px;
-        padding: 20vh 0;
+		padding: 10vh 0;
     }
 
 	/* navbar 부분 */

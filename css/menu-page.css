@@ -11,17 +11,15 @@ body::-webkit-scrollbar-thumb {
 
 /* 헤더 부분 */
 .header {
-    color: #ffffff;
-    text-align: center;
-    margin: 0;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
 }
 
-.header-shadow {
+.header-title {
+    color: #ffffff;
+    text-align: center;
     text-shadow: 0 0 20px black;
+
 }
 
 /* navbar 부분 */
