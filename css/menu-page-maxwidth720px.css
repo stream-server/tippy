@@ -1,0 +1,72 @@
+@media (max-width: 720px) {
+	
+	/* 헤더 부분 */
+    .header {
+        font-size: 30px;
+        padding: 20vh 0;
+    }
+
+	/* navbar 부분 */
+    .navbar {
+        height: 31px;
+        padding: 0 25px;
+    }
+
+    .navbar-title {
+        font-size: 12px;
+        padding: 8px 20px;
+    }
+
+    .google-login img {
+        height: 27px;
+        padding: 2px 0;
+    }
+
+    /* side 부분 */
+    .row-side {
+        display: none;
+    }
+	
+    /* main 부분 */
+    .row-main {
+        width: calc(100vw - 30px);
+        padding: 10px;
+    }
+
+    .main-middle {
+        font-size: 12px;
+        padding: 6px;
+        margin: 6px 0;
+    }
+
+    .list-select {
+        width: calc((100vw - 30px) / 3);
+        /*padding 20px + scroll 10px = 30px*/
+    }
+
+    .list-img img {
+        width: calc((100vw - 54px) / 3);
+        /*padding 20px + scroll 10px + img pading 3px x 2 x 4 = 54px*/
+        height: calc(((100vw - 62px) / 3) * 1.5);
+        padding: 3px;
+    }
+
+    .list-title {
+        height: 40px;
+        padding: 6px 6px;
+        font-size: 10px;
+    }
+
+    footer {
+        padding: 6px 0px;
+        font-size: 12px;
+    }
+
+    #gttopbtn {
+        padding: 8px 16px;
+        bottom: 15px;
+        right: 15px;
+        font-size: 10px;
+    }
+
+}

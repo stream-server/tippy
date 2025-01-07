@@ -6,15 +6,13 @@ body::-webkit-scrollbar-thumb {
     background-color: #aaaaaa;
     background-clip: padding-box;
     border: 2px solid transparent;
-	border-radius: 10px;
+    border-radius: 10px;
 }
 
 /* 헤더 부분 */
 .header {
-	font-size: 40px;
     color: #ffffff;
     text-align: center;
-    padding: 25vh 0;
     margin: 0;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -28,8 +26,6 @@ body::-webkit-scrollbar-thumb {
 
 /* navbar 부분 */
 .navbar {
-    height: 49px;
-    padding: 0 150px;
     top: -1px;
     overflow: hidden;
     position: sticky;
@@ -39,9 +35,7 @@ body::-webkit-scrollbar-thumb {
 
 .navbar-title {
     float: left;
-    font-size: 20px;
     color: #ffffff;
-    padding: 12px 20px;
     text-align: center;
     text-decoration: none;
 }
@@ -52,8 +46,6 @@ body::-webkit-scrollbar-thumb {
 
 .google-login img {
     width: auto;
-    height: 45px;
-	padding: 2px 0;
 }
 
 /* row */
@@ -61,58 +53,21 @@ body::-webkit-scrollbar-thumb {
     display: flex;
 }
 
-/* 사이드 부분 */
-.row-side {
-    width: 300px;
-    padding: 20px 50px;
-    background-color: #f0f0f0;
-    overflow: hidden;
-    text-align: center;
-	flex-direction: column;
-}
-
-.row-side a {
-    color: #000;
-    font-size: 18px;
-    padding: 4px 0;
-    text-decoration: none;
-	display: inline-block;
-}
-
-.row-side ul {
-    width: 300px;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-}
-
-.row-side ul:hover {
-    background-color: #ECD9FF;
-    border-radius: 10px;
-}
-
-.row-main {
-	width: calc(100vw - 420px);
-    padding: 10px;
-}
-
+/* main 부분 */
 .main-middle {
-    font-size: 20px;
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    padding: 12px;
-	margin: 10px 0;
     background-color: #D3ABFB;
     background-image: linear-gradient(62deg, #D3ABFB 10%, #75B8FB 105%);
     border-radius: 10px;
 }
 
 .main-list {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .main-list :hover {
@@ -120,42 +75,29 @@ body::-webkit-scrollbar-thumb {
     border-radius: 10px;
 }
 
-.list-select {
-	width: calc((100vw - 430px) / 5);
-	/*side 400px + padding 20px + scroll 10px = 430px*/
-}
-
-.list-select a{
+.list-select a {
     text-decoration: none;
 }
 
-.list-img img{
-	width: calc((100vw - 490px) / 5);
-	/*side 400px + padding 20px + scroll 10px + img pading 6px x 2 x 5 = 490px*/
-    height: calc(((100vw - 490px) / 5) * 1.5);
-	padding: 6px;
-	align-content: center;
+.list-img img {
+    align-content: center;
     object-fit: cover;
     border-radius: 10px;
 }
 
 .list-title {
-	width: auto;
-    height: 70px;
-	padding: 6px 6px;
-    font-size: 18px;
+    width: auto;
     color: #000000;
     text-align: center;
-	align-content: center;
+    align-content: center;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 
+/* footer부분 */
 footer {
     text-align: center;
-    padding: 12px 0px;
-    font-size: 20px;
     color: #ffffff;
     background-color: #D3ABFB;
     background-image: linear-gradient(62deg, #D3ABFB 20%, #75B8FB 100%);
@@ -164,16 +106,12 @@ footer {
 #gttopbtn {
     display: none;
     position: fixed;
-    bottom: 30px;
-    right: 30px;
-    font-size: 18px;
     font-weight: bold;
     color: #ffffff;
     border: none;
     outline: none;
     background-color: #439FFA;
     cursor: pointer;
-    padding: 15px 30px;
     border-radius: 10px;
 }
 
