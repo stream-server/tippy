@@ -29,7 +29,7 @@
 	
     /* main 부분 */
     .row-main {
-        width: calc(100vw - 30px);
+        width: calc(100vw - 20px);
     }
 
     .main-middle {
@@ -39,13 +39,13 @@
     }
 
     .list-select {
-        width: calc((100vw - 30px) / 3);
-        /*padding 20px + scroll 10px = 30px*/
+        width: calc((100vw - 20px) / 3);
+        /*padding 20px*/
     }
 
     .list-img img {
-        width: calc((100vw - 54px) / 3);
-        /*padding 20px + scroll 10px + img pading 3px x 2 x 4 = 54px*/
+        width: calc((100vw - 44px) / 3);
+        /*padding 20px + img pading 3px x 2 x 4 = 44px*/
         height: calc(((100vw - 62px) / 3) * 1.5);
         padding: 3px;
     }
