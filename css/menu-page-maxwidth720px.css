@@ -48,15 +48,15 @@
     }
 
     .list-img img {
-        width: calc((100vw - 44px) / 3);
-        /*padding 20px + img pading 3px x 2 x 4 = 44px*/
-        height: calc(((100vw - 62px) / 3) * 1.5);
-        padding: 3px;
+        width: calc((100vw - 32px) / 3);
+        /*padding 20px + img pading 2px x 2 x 3 = 32px*/
+        height: calc(((100vw - 32px) / 3) * 1.5);
+        padding: 2px 2px 0 2px;
     }
 
     .list-title {
         height: 40px;
-        padding: 6px 6px;
+        padding: 0 2px 2px 2px;
         font-size: 10px;
     }
 

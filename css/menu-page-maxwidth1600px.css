@@ -48,12 +48,12 @@
         width: calc((100vw - 62px) / 4);
         /*padding 20px + scroll 10px + img pading 4px x 2 x 4 = 62px*/
         height: calc(((100vw - 62px) / 4) * 1.5);
-        padding: 4px;
+        padding: 4px 4px 0 4px;
     }
 
     .list-title {
         height: 70px;
-        padding: 6px 6px;
+        padding: 0 4px 4px 4px;
         font-size: 18px;
     }
 

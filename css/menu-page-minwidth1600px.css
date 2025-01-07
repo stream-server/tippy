@@ -69,15 +69,15 @@
     }
 
     .list-img img {
-        width: calc((100vw - 490px) / 5);
-        /*side 400px + padding 20px + scroll 10px + img pading 6px x 2 x 5 = 490px*/
-        height: calc(((100vw - 490px) / 5) * 1.5);
-        padding: 6px;
+        width: calc((100vw - 470px) / 5);
+        /*side 400px + padding 20px + scroll 10px + img pading 4px x 2 x 5 = 470px*/
+        height: calc(((100vw - 470px) / 5) * 1.5);
+        padding: 4px 4px 0 4px;
     }
 
     .list-title {
         height: 70px;
-        padding: 6px 6px;
+        padding: 0 4px 4px 4px;
         font-size: 18px;
     }
 
