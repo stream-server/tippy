@@ -1,8 +1,12 @@
 @media (max-width: 720px) {
 	
+	body::-webkit-scrollbar {
+        display: none;
+    }
+	
 	/* 헤더 부분 */
     .header {
-        font-size: 30px;
+        font-size: 20px;
         padding: 20vh 0;
     }
 
