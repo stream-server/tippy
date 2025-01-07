@@ -72,7 +72,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .main-list :hover {
