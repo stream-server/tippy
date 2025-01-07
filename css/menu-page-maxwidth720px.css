@@ -6,13 +6,13 @@
 	
 	/* 헤더 부분 */
     .header {
-	    background-size: auto calc(24vh + 25px);
+	    background-size: 100vw auto;
         background-position: center top;
     }
 	
 	.header-title {
         font-size: 20px;
-		padding: 12vh 0;
+		padding: calc((56.25vw - 25px) / 2) 0;
     }
 
 	/* navbar 부분 */

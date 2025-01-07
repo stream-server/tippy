@@ -2,13 +2,13 @@
 	
 	/* 헤더 부분 */
     .header {
-	    background-size: auto calc(40vh + 50px);
+	    background-size: 100vw auto;
         background-position: center top;
     }
 	
 	.header-title {
         font-size: 40px;
-		padding: 20vh 0;
+		padding: calc((56.25vw - 50px) / 2) 0;
     }
 
 	/* navbar 부분 */
