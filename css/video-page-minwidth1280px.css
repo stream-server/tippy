@@ -1,8 +1,8 @@
-@media (min-width: 1280px) {
+@media (min-width: 1600px) {
 
     .navbar {
         height: 51px;
-        padding: 0 max(60px, calc((50vw - 600px) / 2));
+        padding: 0 max(60px, calc((40vw - 620px) / 2));
         margin: 16px 0;
     }
 
@@ -26,25 +26,24 @@
 
     .navbar a.title {
         text-shadow: none;
-        overflow: hidden;
     }
 
     .video-page {
-        grid-template-columns: 50vw 600px;
-        grid-template-rows: 28.125vw 30px 30px;
+        grid-template-columns: 60vw 620px;
+        grid-template-rows: 33.75vw 30px 30px;
         gap: 10px;
     }
 
     .main-video {
-        width: 50vw;
-        height: 28.125vw;
+        width: 60vw;
+        height: 33.75vw;
         grid-column: 1 / 2;
         grid-row: 1 / 2;
     }
 
     .video-main iframe {
-        width: 50vw;
-        height: 28.125vw;
+        width: 60vw;
+        height: 33.75vw;
     }
 
     #main-video-title {
@@ -60,8 +59,8 @@
     }
 
     .main-playlist {
-        width: 600px;
-        height: 28.125vw;
+        width: 620px;
+        height: 33.75vw;
         grid-column: 2 / 3;
         grid-row: 1 / 2;
     }
@@ -75,14 +74,14 @@
     }
 
     .playlist-img {
-        width: 160px;
-        height: 90px;
+        width: 200px;
+        height: 112px;
         padding: 2px;
     }
 
     .playlist-title {
-        width: 416px;
-        /*600px - img padding 4px + img 160px + scrollbar 10px + title padding 10px*/
+        width: 396px;
+        /*620px - img padding 4px + img 200px + scrollbar 10px + title padding 10px*/
         font-size: 18px;
         padding: 0 0 0 10px;
     }
