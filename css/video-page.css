@@ -1,6 +1,6 @@
 .navbar {
     background-image: linear-gradient(62deg, #D3ABFB 20%, #75B8FB 100%);
-	white-space: nowrap;
+    white-space: nowrap;
     overflow: hidden;
 }
 
@@ -9,7 +9,7 @@
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-	display: inline-block;
+    display: inline-block;
 }
 
 .video-page {

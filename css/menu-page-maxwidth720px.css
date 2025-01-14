@@ -1,21 +1,21 @@
 @media (max-width: 720px) {
-	
-	body::-webkit-scrollbar {
+
+    body::-webkit-scrollbar {
         display: none;
     }
-	
-	/* 헤더 부분 */
+
+    /* 헤더 부분 */
     .header {
-	    background-size: 100vw auto;
+        background-size: 100vw auto;
         background-position: center top;
     }
-	
-	.header-title {
+
+    .header-title {
         font-size: 20px;
-		padding: calc((56.25vw - 25px) / 2) 0;
+        padding: calc((56.25vw - 25px) / 2) 0;
     }
 
-	/* navbar 부분 */
+    /* navbar 부분 */
     .navbar {
         height: 31px;
         padding: 0 20px;
@@ -35,7 +35,7 @@
     .row-side {
         display: none;
     }
-	
+
     /* main 부분 */
     .row-main {
         width: calc(100vw - 20px);

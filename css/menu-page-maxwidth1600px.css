@@ -1,17 +1,17 @@
 @media (max-width: 1600px) {
-	
-	/* 헤더 부분 */
+
+    /* 헤더 부분 */
     .header {
-	    background-size: 100vw auto;
+        background-size: 100vw auto;
         background-position: center top;
     }
-	
-	.header-title {
+
+    .header-title {
         font-size: 40px;
-		padding: calc((56.25vw - 50px) / 2) 0;
+        padding: calc((56.25vw - 50px) / 2) 0;
     }
 
-	/* navbar 부분 */
+    /* navbar 부분 */
     .navbar {
         height: 49px;
         padding: 0 50px;
@@ -31,7 +31,7 @@
     .row-side {
         display: none;
     }
-	
+
     /* main 부분 */
     .row-main {
         width: calc(100vw - 30px);
