@@ -15,14 +15,24 @@ spans.forEach(span => {
             VideoMain.removeChild(currentIframe);
         }
 
-        // 새로운 iframe 생성 및 추가
         if (iframeUrl) {
+            // Create a new iframe element
             const newIframe = document.createElement('iframe');
+
+            // Set the src attribute to the iframe URL
             newIframe.src = iframeUrl;
+
+            // Allow fullscreen for the iframe
             newIframe.allowFullscreen = true;
-			iframe.style.webkitTransform = 'rotate(90deg)';
+
+            // Apply the rotation style to the iframe
+            newIframe.style.webkitTransform = 'rotate(90deg)';
+
+            // Append the new iframe to the VideoMain element
             VideoMain.classList.add('video-main');
             VideoMain.appendChild(newIframe);
+
+            // Set the currentIframe variable to the new iframe
             currentIframe = newIframe;
         }
 
@@ -30,7 +40,7 @@ spans.forEach(span => {
         if (title) {
             MainVideoTitle.textContent = title;
         }
-		
+
         if (subtitle) {
             MainVideoSubtitle.textContent = subtitle;
         }
