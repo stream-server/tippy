@@ -20,6 +20,7 @@ spans.forEach(span => {
             const newIframe = document.createElement('iframe');
             newIframe.src = iframeUrl;
             newIframe.allowFullscreen = true;
+			iframe.style.webkitTransform = 'rotate(90deg)';
             VideoMain.classList.add('video-main');
             VideoMain.appendChild(newIframe);
             currentIframe = newIframe;
