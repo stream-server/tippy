@@ -43,16 +43,3 @@ spans.forEach(span => {
         }
     });
 });
-
-// 화면 방향 변화 감지
-window.addEventListener("orientationchange", function() {
-  // video-main 내부의 iframe 요소 가져오기
-  var iframe = document.querySelector("#video-main iframe"); 
-
-  // 화면 방향에 따라 iframe 회전
-  if (window.orientation == 90 || window.orientation == -90) {
-    iframe.style.transform = "rotate(90deg)"; 
-  } else {
-    iframe.style.transform = "rotate(0deg)"; 
-  }
-});
