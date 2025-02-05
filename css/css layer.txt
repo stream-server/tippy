@@ -10,5 +10,5 @@ css tree
 		main-video-subtitle
 		main-playlist
 			playlist-main
-			playlist-img
-			playlist-title
+				playlist-img
+				playlist-title
