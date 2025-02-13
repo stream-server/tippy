@@ -76,12 +76,12 @@
     .playlist-img {
         width: 200px;
         height: 112px;
-        padding: 2px;
+        padding: 4px;
     }
 
     .playlist-title {
-        width: 396px;
-        /*620px - img padding 4px + img 200px + scrollbar 10px + title padding 10px*/
+        width: 392px;
+        /*620px - img padding 8px + img 200px + scrollbar 10px + title padding 10px*/
         font-size: 18px;
         padding: 0 0 0 10px;
     }
