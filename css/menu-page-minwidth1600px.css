@@ -21,6 +21,10 @@
         font-size: 20px;
         padding: 12px 20px;
     }
+	
+    .navbar a.navbar-title:hover {
+        text-shadow: 0 0 20px black;
+    }
 
     .google-login img {
         height: 45px;
@@ -30,7 +34,7 @@
     /* side 부분 */
     .row-side {
         width: 300px;
-        padding: 20px 50px;
+        padding: 50px;
         background-color: #f0f0f0;
         overflow: hidden;
         text-align: center;
@@ -55,6 +59,19 @@
     .row-side ul:hover {
         background-color: #ECD9FF;
         border-radius: 10px;
+    }
+	
+	.side-thumb-img {
+        width: 300px;
+        height: auto;
+		border-radius: 10px;
+    }
+
+    .side-random-img {
+        width: 300px;
+        height: auto;
+        margin: 0px 0px 10px 0px;
+		border-radius: 10px;
     }
 
     /* main 부분 */

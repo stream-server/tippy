@@ -12,19 +12,23 @@
         line-height: 51px;
     }
 
-    .navbar a:hover {
+    .navbar a.main-title:hover {
         text-shadow: 0 0 20px black;
     }
 
     .navbar a.next {
         text-shadow: none;
     }
-
+	
     .navbar a.year {
         text-shadow: none;
     }
 
-    .navbar a.title {
+	.navbar a.sub-menu:hover {
+        text-shadow: 0 0 20px black;
+    }
+
+    .navbar a.sub-title {
         text-shadow: none;
     }
 
