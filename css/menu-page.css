@@ -77,6 +77,11 @@ body::-webkit-scrollbar-thumb {
     border-radius: 10px;
 }
 
+.main-list :active {
+    background-color: #DBBBFB;
+    border-radius: 10px;
+}
+
 .list-select a {
     text-decoration: none;
 }
@@ -112,7 +117,7 @@ footer {
     color: #ffffff;
     border: none;
     outline: none;
-    background-color: #439FFA;
+    background-color: #75B8FB;
     cursor: pointer;
     border-radius: 10px;
 }

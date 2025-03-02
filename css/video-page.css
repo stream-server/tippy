@@ -63,6 +63,11 @@
     border-radius: 10px;
 }
 
+.main-playlist :active {
+    background-color: #DBBBFB;
+    border-radius: 10px;
+}
+
 .main-playlist::-webkit-scrollbar-thumb {
     background-color: #aaaaaa;
     background-clip: padding-box;
