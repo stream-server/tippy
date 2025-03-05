@@ -58,13 +58,8 @@
     overflow-y: scroll;
 }
 
-.main-playlist :hover {
-    background-color: #dddddd;
-    border-radius: 10px;
-}
-
-.main-playlist :active {
-    background-color: #DBBBFB;
+.main-playlist span :hover {
+    background-color: #E7D3FB;
     border-radius: 10px;
 }
 
@@ -79,6 +74,11 @@
     cursor: pointer;
     display: flex;
     flex-direction: row;
+}
+
+.playlist-main.selected {
+    background-color: #DBBBFB;
+    border-radius: 10px;
 }
 
 .playlist-img {
