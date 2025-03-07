@@ -3,7 +3,7 @@
     .navbar {
         height: 31px;
         padding: 0 2.5vw;
-        margin: 4px 0;
+        margin: 1vw 0;
         text-align: center
     }
 
@@ -38,7 +38,7 @@
         grid-template-columns: 98vw;
         grid-template-rows: 55.125vw 19px 19px auto;
         gap: 4px;
-        padding: 0 0 4px 0;
+        padding: 0 0 1vw 0;
     }
 
     .main-video {
@@ -67,8 +67,8 @@
 
     .main-playlist {
         width: 98vw;
-        height: calc(100vh - 55.125vw - 93px);
-        /*navbar 39px + gap 12px + text 38px + bottom padding 4px*/
+        height: calc(100vh - 58.125vw - 81px);
+        /*navbar 31px + gap 12px + text 38px */
         min-height: 400px;
         grid-column: 1 / 2;
         grid-row: 4 / 5;
