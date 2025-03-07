@@ -42,24 +42,25 @@
 
     /* main 부분 */
     .row-main {
-        width: calc(100vw - 20px);
+        width: calc(100vw - 8px);
+		padding: 0 4px;
     }
 
     .main-middle {
         font-size: 12px;
         padding: 6px;
-        margin: 6px 0;
+        margin: 4px 0;
     }
 
     .list-select {
-        width: calc((100vw - 20px) / 3);
-        /*padding 20px*/
+        width: calc((100vw - 8px) / 3);
+        /*padding 8px*/
     }
 
     .list-img img {
-        width: calc((100vw - 32px) / 3);
-        /*padding 20px + img pading 2px x 2 x 3 = 32px*/
-        height: calc(((100vw - 32px) / 3) * 1.5);
+        width: calc((100vw - 20px) / 3);
+        /*padding 8px + img pading 2px x 2 x 3 = 20px*/
+        height: calc(((100vw - 20px) / 3) * 1.5);
         padding: 2px 2px 0 2px;
     }
 

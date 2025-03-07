@@ -37,7 +37,7 @@
     .video-page {
         grid-template-columns: 96vw;
         grid-template-rows: 54vw 19px 19px auto;
-        gap: 5px;
+        gap: 4px;
         padding: 0 0 10px 0;
     }
 
@@ -67,8 +67,8 @@
 
     .main-playlist {
         width: 96vw;
-        height: calc(100vh - 54vw - 110px);
-        /*navbar 47px + gap 15px + text 38px + bottom padding 10px*/
+        height: calc(100vh - 54vw - 107px);
+        /*navbar 47px + gap 12px + text 38px + bottom padding 10px*/
         min-height: 400px;
         grid-column: 1 / 2;
         grid-row: 4 / 5;
@@ -77,7 +77,7 @@
     .playlist-img {
         width: 120px;
         height: 90px;
-        padding: 2px;
+        padding: 1px 2px;
     }
 
     .playlist-title {
