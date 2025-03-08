@@ -35,7 +35,7 @@
     .video-page {
         grid-template-columns: 60vw 620px;
         grid-template-rows: 33.75vw 30px 30px;
-        gap: 10px;
+        gap: 8px;
     }
 
     .main-video {
