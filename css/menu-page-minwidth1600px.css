@@ -58,20 +58,20 @@
 
     .row-side ul:hover {
         background-color: #ECD9FF;
-        border-radius: 10px;
+        border-radius: 8px;
     }
 	
 	.side-thumb-img {
         width: 300px;
         height: auto;
-		border-radius: 10px;
+		border-radius: 8px;
     }
 
     .side-random-img {
         width: 300px;
         height: auto;
         margin: 0px 0px 10px 0px;
-		border-radius: 10px;
+		border-radius: 8px;
     }
 
     /* main 부분 */

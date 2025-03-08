@@ -57,7 +57,7 @@ body::-webkit-scrollbar-thumb {
     text-decoration: none;
     background-color: #D3ABFB;
     background-image: linear-gradient(62deg, #D3ABFB 10%, #75B8FB 105%);
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .main-list {
@@ -69,12 +69,12 @@ body::-webkit-scrollbar-thumb {
 
 .main-list :hover {
     background-color: #dddddd;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .main-list :active {
     background-color: #DBBBFB;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .list-select a {
@@ -84,7 +84,7 @@ body::-webkit-scrollbar-thumb {
 .list-img img {
     align-content: center;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .list-title {
@@ -114,7 +114,7 @@ footer {
     outline: none;
     background-color: #75B8FB;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 #gttopbtn:hover {
