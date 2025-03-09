@@ -24,6 +24,8 @@ spans.forEach(span => {
 
             // Allow fullscreen for the iframe
             newIframe.allowFullscreen = true;
+            newIframe.webkitallowfullscreen = true;
+            newIframe.mozallowfullscreen = true;
 
             // Append the new iframe to the VideoMain element
             VideoMain.classList.add('video-main');
