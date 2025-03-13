@@ -70,7 +70,9 @@ const images = [
 ];
 
 const placeholderImages = [
-
+  'placeholder1.png', // 첫 번째 대체 이미지
+  'placeholder2.png', // 두 번째 대체 이미지
+  'placeholder3.png', // 세 번째 대체 이미지
 ];
 
 function randomImage() {
