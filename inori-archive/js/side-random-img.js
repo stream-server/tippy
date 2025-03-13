@@ -102,9 +102,7 @@ function rotateimage() {
 
     // 대체 이미지 배열
     var placeholderImages = [
-"placeholder1.png",
-"placeholder2.png",
-"placeholder3.png"
+
 ];
     var randomIndex = Math.floor(Math.random() * placeholderImages.length);
     document.images.defaultimage.src = placeholderImages[randomIndex];

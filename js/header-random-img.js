@@ -63,12 +63,33 @@ const images = [
 'https://lh3.google.com/u/0/d/1WkLp2k9zJvAog8XW7g-CHNfXF4hbuy_W=w1920-h1080',
 ]; 
 
-function randomImage() {
-    const randomIndex = Math.floor(Math.random() * images.length);
-    const randomImage = images[randomIndex];
+const placeholderImages = [
 
-    const header = document.querySelector('.header');
-    header.style.backgroundImage = `url(${randomImage})`;
+];
+
+function randomImage() {
+  const randomIndex = Math.floor(Math.random() * images.length);
+  const randomImageUrl = images[randomIndex];
+  const header = document.querySelector('.header');
+
+  if (randomImageUrl) {
+    const img = new Image();
+    img.src = randomImageUrl;
+
+    img.onload = function() {
+      header.style.backgroundImage = `url(${randomImageUrl})`;
+    };
+
+    img.onerror = function() {
+      console.error(`Failed to load image: ${randomImageUrl}`);
+      const placeholderIndex = Math.floor(Math.random() * placeholderImages.length);
+      header.style.backgroundImage = `url(${placeholderImages[placeholderIndex]})`; // 임의의 대체 이미지 선택
+    };
+  } else {
+    console.error("Image URL is empty");
+    const placeholderIndex = Math.floor(Math.random() * placeholderImages.length);
+    header.style.backgroundImage = `url(${placeholderImages[placeholderIndex]})`;
+  }
 }
 
-randomImage(); // 페이지 로드 시 한 번 실행
+randomImage();
