@@ -38,13 +38,54 @@ for (n = 0; n < randomimages.length; n++) {
 document.write('<img name="defaultimage" src="' + randomimages[Math.floor(Math.random() * (randomimages.length))] + '"  class="random-img">')
 
 function rotateimage() {
+  var tempindex = Math.floor(Math.random() * randomimages.length);
 
-    if (curindex == (tempindex = Math.floor(Math.random() * (randomimages.length)))) {
-        curindex = curindex == 0 ? 1 : curindex - 1
-    } else
-        curindex = tempindex
+  if (curindex === tempindex) {
+    curindex = curindex === 0 ? 1 : curindex - 1;
+  } else {
+    curindex = tempindex;
+  }
 
-    document.images.defaultimage.src = randomimages[curindex]
+  var img = new Image();
+  img.src = randomimages[curindex];
+
+  img.onload = function() {
+    document.images.defaultimage.src = randomimages[curindex];
+  };
+
+  img.onerror = function() {
+    console.error(`Failed to load image: ${randomimages[curindex]}`);
+
+    // 대체 이미지 배열
+    var placeholderImages = [
+"https://i.postimg.cc/NFcfyDvF/01.jpg",
+"https://i.postimg.cc/j24qyfRX/02.jpg",
+"https://i.postimg.cc/xjv1wwLz/03.jpg",
+"https://i.postimg.cc/9FcQCLBN/04.jpg",
+"https://i.postimg.cc/kXwX4W1M/05.jpg",
+"https://i.postimg.cc/KY3ZJwZ4/06.jpg",
+"https://i.postimg.cc/XYJNyXmf/07.jpg",
+"https://i.postimg.cc/Jz2r3MC9/08.jpg",
+"https://i.postimg.cc/FRthqpRp/09.jpg",
+"https://i.postimg.cc/MTyz8BfS/10.jpg",
+"https://i.postimg.cc/prRRVdKn/11.jpg",
+"https://i.postimg.cc/x85YXSPp/12.jpg",
+"https://i.postimg.cc/ryNqnSLG/13.jpg",
+"https://i.postimg.cc/Pr6ThTJP/14.jpg",
+"https://i.postimg.cc/XYmWGLwW/15.jpg",
+"https://i.postimg.cc/JzGmzvHK/16.jpg",
+"https://i.postimg.cc/63NNzQj1/17.jpg",
+"https://i.postimg.cc/1zFQpFHq/18.jpg",
+"https://i.postimg.cc/76MrRyjP/19.jpg",
+"https://i.postimg.cc/bryfcBjx/20.jpg",
+"https://i.postimg.cc/3Nt5KFKP/21.jpg",
+"https://i.postimg.cc/VsgcBmjD/22.jpg",
+"https://i.postimg.cc/YqSBdZRk/23.jpg",
+"https://i.postimg.cc/ncwbg2Sm/24.jpg"
+];
+    var randomIndex = Math.floor(Math.random() * placeholderImages.length);
+    document.images.defaultimage.src = placeholderImages[randomIndex];
+  };
 }
 
-setInterval("rotateimage()", delay)
+setInterval("rotateimage()", delay);

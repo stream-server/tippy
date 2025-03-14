@@ -85,13 +85,101 @@ for (n = 0; n < randomimages.length; n++) {
 document.write('<img name="defaultimage" src="' + randomimages[Math.floor(Math.random() * (randomimages.length))] + '"  class="random-img">')
 
 function rotateimage() {
+  var tempindex = Math.floor(Math.random() * randomimages.length);
 
-    if (curindex == (tempindex = Math.floor(Math.random() * (randomimages.length)))) {
-        curindex = curindex == 0 ? 1 : curindex - 1
-    } else
-        curindex = tempindex
+  if (curindex === tempindex) {
+    curindex = curindex === 0 ? 1 : curindex - 1;
+  } else {
+    curindex = tempindex;
+  }
 
-    document.images.defaultimage.src = randomimages[curindex]
+  var img = new Image();
+  img.src = randomimages[curindex];
+
+  img.onload = function() {
+    document.images.defaultimage.src = randomimages[curindex];
+  };
+
+  img.onerror = function() {
+    console.error(`Failed to load image: ${randomimages[curindex]}`);
+
+    // 대체 이미지 배열
+    var placeholderImages = [
+"https://i.postimg.cc/28rFPrRg/01.jpg",
+"https://i.postimg.cc/MK5bwNzH/02.jpg",
+"https://i.postimg.cc/YCSNCRS3/03.jpg",
+"https://i.postimg.cc/h491yhw9/04.jpg",
+"https://i.postimg.cc/9fRGGfZw/05.jpg",
+"https://i.postimg.cc/bwFxDnDj/06.jpg",
+"https://i.postimg.cc/vmJ5Xdtq/07.jpg",
+"https://i.postimg.cc/Y9QYsyXp/08.jpg",
+"https://i.postimg.cc/NFYmq7VR/09.jpg",
+"https://i.postimg.cc/wMVJ6R8Z/10.jpg",
+"https://i.postimg.cc/NG7R8S9D/11.jpg",
+"https://i.postimg.cc/Qx81fmc3/12.jpg",
+"https://i.postimg.cc/pXs84jBn/13.jpg",
+"https://i.postimg.cc/t4f6CHwq/14.jpg",
+"https://i.postimg.cc/JztJLhTY/15.jpg",
+"https://i.postimg.cc/VNCCJVPj/16.jpg",
+"https://i.postimg.cc/rm2txNq7/17.jpg",
+"https://i.postimg.cc/63V4043q/18.jpg",
+"https://i.postimg.cc/kGn6hM6c/19.jpg",
+"https://i.postimg.cc/cCXgqqfN/20.jpg",
+"https://i.postimg.cc/3rBD0GVb/21.jpg",
+"https://i.postimg.cc/YqCL69w2/22.jpg",
+"https://i.postimg.cc/bNVD3hzx/23.jpg",
+"https://i.postimg.cc/vZ11KNBp/24.jpg",
+"https://i.postimg.cc/4xrKRQHn/25.jpg",
+"https://i.postimg.cc/d1FLLQBY/26.jpg",
+"https://i.postimg.cc/yNcD130j/27.jpg",
+"https://i.postimg.cc/3RZWpMSD/28.jpg",
+"https://i.postimg.cc/T1Y1JkFN/29.jpg",
+"https://i.postimg.cc/0jWQWYqk/30.jpg",
+"https://i.postimg.cc/3rndxT0s/31.jpg",
+"https://i.postimg.cc/jd2CWFzL/32.jpg",
+"https://i.postimg.cc/024j70fZ/33.jpg",
+"https://i.postimg.cc/dVT16ZNF/34.jpg",
+"https://i.postimg.cc/nz3HF5JG/0001.jpg",
+"https://i.postimg.cc/rmVVLTvp/0002.jpg",
+"https://i.postimg.cc/j29tN7CW/0003.jpg",
+"https://i.postimg.cc/L5hmnT4K/0004.jpg",
+"https://i.postimg.cc/3rbKzP9K/0005.jpg",
+"https://i.postimg.cc/ZKBTmVD6/0006.jpg",
+"https://i.postimg.cc/t4FpZ7bT/0007.jpg",
+"https://i.postimg.cc/65kBpnDg/0008.jpg",
+"https://i.postimg.cc/R099c9CT/0009.jpg",
+"https://i.postimg.cc/d0BF6XLc/0010.jpg",
+"https://i.postimg.cc/RFZBDRH6/0011.jpg",
+"https://i.postimg.cc/76tk823B/0012.jpg",
+"https://i.postimg.cc/D0WK2w57/0013.jpg",
+"https://i.postimg.cc/L47pxj65/0014.jpg",
+"https://i.postimg.cc/C5Wpdp6k/0015.jpg",
+"https://i.postimg.cc/KvMyw4RN/0016.jpg",
+"https://i.postimg.cc/Gmn1CrD1/0017.jpg",
+"https://i.postimg.cc/vZ7w8j7x/0018.jpg",
+"https://i.postimg.cc/R0M5WRGs/0019.jpg",
+"https://i.postimg.cc/HLBGXyhp/0020.jpg",
+"https://i.postimg.cc/d11bBVbG/0021.jpg",
+"https://i.postimg.cc/j5FGkrTm/0022.jpg",
+"https://i.postimg.cc/yx32MrYd/0023.jpg",
+"https://i.postimg.cc/kDrLqFBy/0024.jpg",
+"https://i.postimg.cc/WpD3pNdD/0025.jpg",
+"https://i.postimg.cc/59Zt6hzs/0026.jpg",
+"https://i.postimg.cc/15w36vcs/0027.jpg",
+"https://i.postimg.cc/fRsTvYBX/0028.jpg",
+"https://i.postimg.cc/Cx4MrdQ2/0029.jpg",
+"https://i.postimg.cc/wBTqCgKj/0030.jpg",
+"https://i.postimg.cc/tgSqywyt/0031.jpg",
+"https://i.postimg.cc/MTnWG5pk/0032.jpg",
+"https://i.postimg.cc/HxFT8Mrr/0033.jpg",
+"https://i.postimg.cc/rsWM1p4Q/0034.jpg",
+"https://i.postimg.cc/BZ1S9mzH/0035.jpg",
+"https://i.postimg.cc/PrsttmGc/0036.jpg",
+"https://i.postimg.cc/4N6Xnms3/0037.jpg"
+];
+    var randomIndex = Math.floor(Math.random() * placeholderImages.length);
+    document.images.defaultimage.src = placeholderImages[randomIndex];
+  };
 }
 
-setInterval("rotateimage()", delay)
+setInterval("rotateimage()", delay);

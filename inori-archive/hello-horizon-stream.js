@@ -47,13 +47,63 @@ for (n = 0; n < randomimages.length; n++) {
 document.write('<img name="defaultimage" src="' + randomimages[Math.floor(Math.random() * (randomimages.length))] + '"  class="random-img">')
 
 function rotateimage() {
+  var tempindex = Math.floor(Math.random() * randomimages.length);
 
-    if (curindex == (tempindex = Math.floor(Math.random() * (randomimages.length)))) {
-        curindex = curindex == 0 ? 1 : curindex - 1
-    } else
-        curindex = tempindex
+  if (curindex === tempindex) {
+    curindex = curindex === 0 ? 1 : curindex - 1;
+  } else {
+    curindex = tempindex;
+  }
 
-    document.images.defaultimage.src = randomimages[curindex]
+  var img = new Image();
+  img.src = randomimages[curindex];
+
+  img.onload = function() {
+    document.images.defaultimage.src = randomimages[curindex];
+  };
+
+  img.onerror = function() {
+    console.error(`Failed to load image: ${randomimages[curindex]}`);
+
+    // 대체 이미지 배열
+    var placeholderImages = [
+"https://i.postimg.cc/3rCRDsSZ/01.jpg",
+"https://i.postimg.cc/NFYjzDMT/02.jpg",
+"https://i.postimg.cc/0Q7NnF8P/03.jpg",
+"https://i.postimg.cc/j2XS0fw1/04.jpg",
+"https://i.postimg.cc/SNgxgWp2/05.jpg",
+"https://i.postimg.cc/XYX7mpV2/06.jpg",
+"https://i.postimg.cc/vZjHsbTG/07.jpg",
+"https://i.postimg.cc/zfgDD6HK/08.jpg",
+"https://i.postimg.cc/ydC1Dj05/09.jpg",
+"https://i.postimg.cc/gjYGD0SH/10.jpg",
+"https://i.postimg.cc/63V9nZ0Q/11.jpg",
+"https://i.postimg.cc/8ctNnVxQ/12.jpg",
+"https://i.postimg.cc/NG4s01FJ/13.jpg",
+"https://i.postimg.cc/02y8KbJ8/14.jpg",
+"https://i.postimg.cc/zGL8p6j6/15.jpg",
+"https://i.postimg.cc/tCv93phF/16.jpg",
+"https://i.postimg.cc/K8dFWfpz/17.jpg",
+"https://i.postimg.cc/6QnwxZFh/18.jpg",
+"https://i.postimg.cc/vByyYBsw/19.jpg",
+"https://i.postimg.cc/ZRLSCSbB/20.jpg",
+"https://i.postimg.cc/x8TSm48s/21.jpg",
+"https://i.postimg.cc/PJ3nQQ8d/22.jpg",
+"https://i.postimg.cc/SQD44k1H/23.jpg",
+"https://i.postimg.cc/9F0hFKv0/24.jpg",
+"https://i.postimg.cc/RVYz3GBR/25.jpg",
+"https://i.postimg.cc/9f55bMzw/26.jpg",
+"https://i.postimg.cc/YS6csHmn/27.jpg",
+"https://i.postimg.cc/8zrgLWkV/28.jpg",
+"https://i.postimg.cc/mDTxx5Yb/29.jpg",
+"https://i.postimg.cc/mDjvTyj7/30.jpg",
+"https://i.postimg.cc/gj0fjLtQ/31.jpg",
+"https://i.postimg.cc/SRtHMQws/32.jpg",
+"https://i.postimg.cc/1RWkTMfQ/33.jpg"
+];
+    var randomIndex = Math.floor(Math.random() * placeholderImages.length);
+    document.images.defaultimage.src = placeholderImages[randomIndex];
+  };
 }
 
-setInterval("rotateimage()", delay)
+setInterval("rotateimage()", delay);

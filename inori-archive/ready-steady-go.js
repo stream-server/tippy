@@ -167,7 +167,7 @@ function rotateimage() {
 "https://i.postimg.cc/HsRk8f7S/0032.jpg",
 "https://i.postimg.cc/3xGJXnX3/0033.jpg",
 "https://i.postimg.cc/JhW7PZxZ/0034.jpg",
-"https://i.postimg.cc/FKgrqzCq/0035.jpg",
+"https://i.postimg.cc/FKgrqzCq/0035.jpg"
 ];
     var randomIndex = Math.floor(Math.random() * placeholderImages.length);
     document.images.defaultimage.src = placeholderImages[randomIndex];
