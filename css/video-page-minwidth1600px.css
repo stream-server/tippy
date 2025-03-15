@@ -43,8 +43,9 @@
         height: 33.75vw;
         grid-column: 1 / 2;
         grid-row: 1 / 2;
+		overflow: hidden;
     }
-
+	
     .video-main iframe {
         width: 60vw;
         height: 33.75vw;
