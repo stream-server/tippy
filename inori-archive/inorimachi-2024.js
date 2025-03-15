@@ -52,9 +52,24 @@ function rotateimage() {
 
     // 대체 이미지 배열
     var placeholderImages = [
-"placeholder1.png",
-"placeholder2.png",
-"placeholder3.png"
+"https://i.postimg.cc/X7Fs8Jb5/01.jpg",
+"https://i.postimg.cc/8zStnSp0/02.jpg",
+"https://i.postimg.cc/XvNx4kyK/03.jpg",
+"https://i.postimg.cc/QdJS2yVx/04.jpg",
+"https://i.postimg.cc/xds5CNKw/05.jpg",
+"https://i.postimg.cc/63y0G6cy/06.jpg",
+"https://i.postimg.cc/hj608FZM/07.jpg",
+"https://i.postimg.cc/5yzSnPZJ/08.jpg",
+"https://i.postimg.cc/Df46vZmN/09.jpg",
+"https://i.postimg.cc/WbRnhvk1/10.jpg",
+"https://i.postimg.cc/9FGB9ndt/11.jpg",
+"https://i.postimg.cc/wjgQQQFK/12.jpg",
+"https://i.postimg.cc/tggdLRL2/13.jpg",
+"https://i.postimg.cc/Z5HF7vDW/14.jpg",
+"https://i.postimg.cc/7LQ1D84D/15.jpg",
+"https://i.postimg.cc/V6rqkGst/16.jpg",
+"https://i.postimg.cc/SsBW26jv/17.jpg",
+"https://i.postimg.cc/hvVV9XdP/18.jpg"
 ];
     var randomIndex = Math.floor(Math.random() * placeholderImages.length);
     document.images.defaultimage.src = placeholderImages[randomIndex];

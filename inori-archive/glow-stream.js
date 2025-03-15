@@ -68,9 +68,40 @@ function rotateimage() {
 
     // 대체 이미지 배열
     var placeholderImages = [
-"placeholder1.png",
-"placeholder2.png",
-"placeholder3.png"
+"https://i.postimg.cc/wvyvmnm6/01.jpg",
+"https://i.postimg.cc/T2b1YMx0/02.jpg",
+"https://i.postimg.cc/2ynSHvGM/03.jpg",
+"https://i.postimg.cc/50htqpB8/04.jpg",
+"https://i.postimg.cc/65N38j5X/05.jpg",
+"https://i.postimg.cc/tCtgW3YV/06.jpg",
+"https://i.postimg.cc/mgLgwPHp/07.jpg",
+"https://i.postimg.cc/y8LYr7h1/08.jpg",
+"https://i.postimg.cc/mrhZvKVQ/09.jpg",
+"https://i.postimg.cc/3w6rY9bz/10.jpg",
+"https://i.postimg.cc/W3kN3rBz/11.jpg",
+"https://i.postimg.cc/GtncstRQ/12.jpg",
+"https://i.postimg.cc/rsGqGTFL/13.jpg",
+"https://i.postimg.cc/xjLjVvGF/14.jpg",
+"https://i.postimg.cc/VL1ffJDs/15.jpg",
+"https://i.postimg.cc/dtBqLJx2/16.jpg",
+"https://i.postimg.cc/3xx3GzsP/17.jpg",
+"https://i.postimg.cc/XY14kQ3X/18.jpg",
+"https://i.postimg.cc/5tH17LNg/19.jpg",
+"https://i.postimg.cc/Zq1m1nWS/20.jpg",
+"https://i.postimg.cc/9MZ2V29q/21.jpg",
+"https://i.postimg.cc/Vvw8kh9Z/22.jpg",
+"https://i.postimg.cc/BbCGLCMS/23.jpg",
+"https://i.postimg.cc/QNgDyXs2/24.jpg",
+"https://i.postimg.cc/CLF0yWxz/25.jpg",
+"https://i.postimg.cc/X7QbnQrx/26.jpg",
+"https://i.postimg.cc/Cx5V5kD0/27.jpg",
+"https://i.postimg.cc/t4cGxJtx/28.jpg",
+"https://i.postimg.cc/XJSMsPPN/29.jpg",
+"https://i.postimg.cc/VNbQBwDH/30.jpg",
+"https://i.postimg.cc/50whT3cB/31.jpg",
+"https://i.postimg.cc/8cN2S6Dq/32.jpg",
+"https://i.postimg.cc/QCmRxddV/33.jpg",
+"https://i.postimg.cc/zDkmk0F5/34.jpg"
 ];
     var randomIndex = Math.floor(Math.random() * placeholderImages.length);
     document.images.defaultimage.src = placeholderImages[randomIndex];
