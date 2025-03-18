@@ -112,12 +112,12 @@ footer {
     color: #ffffff;
     border: none;
     outline: none;
-    background-color: #75B8FB;
+    background-color: #CB96FF;
     cursor: pointer;
     border-radius: 8px;
 }
 
 #gttopbtn:hover {
     color: #000000;
-    background-color: #A7D2FC;
+    background-color: #ECD9FF;
 }
