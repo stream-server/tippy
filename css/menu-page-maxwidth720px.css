@@ -67,7 +67,7 @@
     .list-title {
         height: 40px;
         padding: 0 2px 2px 2px;
-        font-size: 12px;
+        font-size: 10px;
     }
 
     footer {
@@ -79,7 +79,7 @@
         padding: 8px 16px;
         bottom: 15px;
         right: 15px;
-        font-size: 12px;
+        font-size: 10px;
     }
 
 }

@@ -75,14 +75,14 @@
     }
 
     .playlist-img {
-        width: 120px;
-        height: 90px;
+        width: 160px;
+        height: 120px;
         padding: 1px 2px;
     }
 
     .playlist-title {
-        width: calc(98vw - 138px);
-        /*padding 4px + img 120px + scrollbar 8px + title padding 6px*/
+        width: calc(98vw - 178px);
+        /*padding 4px + img 140px + scrollbar 8px + title padding 6px*/
         font-size: 12px;
         padding: 0 0 0 6px;
     }
