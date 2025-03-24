@@ -24,12 +24,12 @@
         text-shadow: none;
     }
 
-	.navbar a.sub-menu:hover {
-        text-shadow: 0 0 16px black;
-    }
-
     .navbar a.sub-title {
         text-shadow: none;
+    }
+
+	.navbar a.sub-menu:hover {
+        text-shadow: 0 0 16px black;
     }
 
     .video-page {

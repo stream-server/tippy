@@ -1,7 +1,6 @@
 .navbar {
     background-image: linear-gradient(62deg, #D3ABFB 20%, #75B8FB 100%);
-    white-space: nowrap;
-    overflow: hidden;
+	overflow: hidden;
 }
 
 .navbar a {
@@ -97,6 +96,6 @@
 .playlist-title {
     align-content: center;
     overflow: hidden;
-    text-overflow: ellipsis;
     white-space: nowrap;
+    text-overflow: ellipsis;
 }

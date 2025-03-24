@@ -83,7 +83,7 @@
     .playlist-title {
         width: calc(98vw - 138px);
         /*padding 4px + img 120px + scrollbar 8px + title padding 6px*/
-        font-size: 10px;
+        font-size: 12px;
         padding: 0 0 0 6px;
     }
 
