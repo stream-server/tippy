@@ -3,7 +3,7 @@
     .navbar {
         height: 51px;
         padding: 0 max(60px, calc((100vw - 2300px) / 2));
-        margin: 16px 0;
+        margin: 12px 0;
     }
 
     .navbar a {
@@ -35,7 +35,7 @@
     .video-page {
         grid-template-columns: min(1760px, calc(100vw - 584px)) 560px;
         grid-template-rows: min(990px, calc((100vw - 584px) * 0.5625)) 30px 30px;
-        gap: 8px;
+        gap: 6px;
     }
 
     .main-video {
@@ -92,7 +92,7 @@
     }
 
     .playlist-title {
-        width: 330px;
+        width: 310px;
         /*560px - img padding 8px + img 224px + scrollbar 10px + title padding 8px*/
         font-size: 18px;
         padding: 0 0 0 8px;

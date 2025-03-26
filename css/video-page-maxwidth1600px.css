@@ -35,7 +35,7 @@
     .video-page {
         grid-template-columns: 96vw;
         grid-template-rows: 54vw 27px 27px auto;
-        gap: 6px;
+        gap: 4px;
         padding: 0 0 12px 0;
     }
 
@@ -67,8 +67,8 @@
 
     .main-playlist {
         width: 96vw;
-        height: calc(100vh - 54vw - 149px);
-        /*navbar 65px + gap 18px + text 54px + bottom padding 12px*/
+        height: calc(100vh - 54vw - 141px);
+        /*navbar 65px + gap 12px + text 54px + bottom padding 10px*/
         min-height: 400px;
         grid-column: 1 / 2;
         grid-row: 4 / 5;
@@ -91,8 +91,8 @@
     .playlist-title {
         width: calc(96vw - 264px);
         /*padding 8px + img 240px + scrollbar 8px + title padding 8px*/
-        font-size: 18px;
-        padding: 0 0 0 8px;
+        font-size: 20px;
+        padding: 0 0 0 10px;
     }
 
 }
