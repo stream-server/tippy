@@ -2,7 +2,7 @@
 
     .navbar {
         height: 51px;
-        padding: 0 max(60px, calc((100vw - 2328px) / 2));
+        padding: 0 max(60px, calc((100vw - 2300px) / 2));
         margin: 16px 0;
     }
 
@@ -57,12 +57,14 @@
 
     #main-video-title {
         font-size: 22px;
+		padding: 0 0 0 20px;
         grid-column: 1 / 3;
         grid-row: 2 / 3;
     }
 
     #main-video-subtitle {
         font-size: 22px;
+		padding: 0 0 0 20px;
         grid-column: 1 / 3;
         grid-row: 3 / 4;
     }
@@ -84,14 +86,14 @@
     }
 
     .playlist-img {
-        width: 200px;
-        height: 112px;
+        width: 224px;
+        height: 126px;
         padding: 2px 4px;
     }
 
     .playlist-title {
-        width: 354px;
-        /*560px - img padding 8px + img 200px + scrollbar 10px + title padding 8px*/
+        width: 330px;
+        /*560px - img padding 8px + img 224px + scrollbar 10px + title padding 8px*/
         font-size: 18px;
         padding: 0 0 0 8px;
     }

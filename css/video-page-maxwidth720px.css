@@ -1,4 +1,4 @@
-@media (max-width: 720px) {
+@media (max-width: 640px) {
 
     .navbar {
         height: 31px;
@@ -55,12 +55,16 @@
 
     #main-video-title {
         font-size: 14px;
+		padding: 0 0 0 1vw;
+		margin: 0;
         grid-column: 1 / 2;
         grid-row: 2 / 3;
     }
 
     #main-video-subtitle {
         font-size: 14px;
+		padding: 0 0 0 1vw;
+		margin: 0;
         grid-column: 1 / 2;
         grid-row: 3 / 4;
     }
@@ -70,6 +74,7 @@
         height: calc(100vh - 61.125vw - 69px);
         /*navbar 31px + text 38px */
         min-height: 400px;
+		margin: 0;
         grid-column: 1 / 2;
         grid-row: 4 / 5;
     }

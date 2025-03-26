@@ -40,14 +40,12 @@
 }
 
 #main-video-title {
-    padding: 0 0 0 10px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 
 #main-video-subtitle {
-    padding: 0 0 0 10px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
