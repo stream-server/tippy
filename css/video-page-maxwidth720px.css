@@ -51,6 +51,8 @@
     .video-main iframe {
         width: 98vw;
         height: 55.125vw;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
     }
 
     #main-video-title {

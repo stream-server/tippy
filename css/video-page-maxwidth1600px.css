@@ -36,7 +36,7 @@
         grid-template-columns: 96vw;
         grid-template-rows: 54vw 27px 27px auto;
         gap: 4px;
-        padding: 0 0 12px 0;
+        padding: 0 0 10px 0;
     }
 
     .main-video {
@@ -49,6 +49,8 @@
     .video-main iframe {
         width: 96vw;
         height: 54vw;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
     }
 
     #main-video-title {
@@ -69,7 +71,7 @@
         width: 96vw;
         height: calc(100vh - 54vw - 141px);
         /*navbar 65px + gap 12px + text 54px + bottom padding 10px*/
-        min-height: 400px;
+        min-height: 3px;
         grid-column: 1 / 2;
         grid-row: 4 / 5;
     }
