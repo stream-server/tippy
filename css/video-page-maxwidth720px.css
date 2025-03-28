@@ -89,10 +89,10 @@
     }
 
     .playlist-title {
-        width: calc(63vw - 18px);
-        /*padding 4px + scrollbar 8px + title padding 6px*/
+        width: calc(63vw - 16px);
+        /*padding 4px + scrollbar 8px + title padding 4px*/
         font-size: 12px;
-        padding: 0 0 0 8px;
+        padding: 0 0 0 4px;
     }
 
 }
