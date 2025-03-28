@@ -35,7 +35,7 @@
     .video-page {
         grid-template-columns: calc(100vw - 20px);
         grid-template-rows: calc((100vw - 20px) * 0.5625) 27px 27px auto;
-        gap: 4px;
+        gap: 6px;
         padding: 0 0 10px 0;
     }
 
@@ -69,8 +69,8 @@
 
     .main-playlist {
         width: calc(100vw - 20px);
-        height: calc(100vh - 141px - ((100vw - 20px) * 0.5625));
-        /*navbar 65px + gap 12px + text 54px + bottom padding 10px*/
+        height: calc(100vh - 147px - ((100vw - 20px) * 0.5625));
+        /*navbar 65px + gap 18px + text 54px + bottom padding 10px*/
         grid-column: 1 / 2;
         grid-row: 4 / 5;
     }
