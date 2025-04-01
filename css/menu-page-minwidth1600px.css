@@ -34,7 +34,7 @@
     /* side 부분 */
     .row-side {
         width: 300px;
-        padding: 50px;
+        padding: 25px;
         background-color: #f0f0f0;
         overflow: hidden;
         text-align: center;
@@ -76,7 +76,7 @@
 
     /* main 부분 */
     .row-main {
-        width: calc(100vw - 420px);
+        width: calc(100vw - 370px);
         padding: 0 10px;
     }
 
@@ -87,14 +87,14 @@
     }
 
     .list-select {
-        width: calc((100vw - 430px) / 5);
-        /*side 400px + padding 20px + scroll 10px = 430px*/
+        width: calc((100vw - 380px) / 5);
+        /*side 350px + padding 20px + scroll 10px = 380px*/
     }
 
     .list-img img {
-        width: calc((100vw - 470px) / 5);
-        /*side 400px + padding 20px + scroll 10px + img pading 4px x 2 x 5 = 470px*/
-        height: calc(((100vw - 470px) / 5) * 1.5);
+        width: calc((100vw - 420px) / 5);
+        /*side 350px + padding 20px + scroll 10px + img pading 4px x 2 x 5 = 420px*/
+        height: calc(((100vw - 420px) / 5) * 1.5);
         padding: 4px 4px 0 4px;
     }
 
