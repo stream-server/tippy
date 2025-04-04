@@ -71,6 +71,7 @@
         width: calc(100vw - 20px);
         height: calc(100vh - 147px - ((100vw - 20px) * 0.5625));
         /*navbar 65px + gap 18px + text 54px + bottom padding 10px*/
+		min-height: 400px;
         grid-column: 1 / 2;
         grid-row: 4 / 5;
     }
