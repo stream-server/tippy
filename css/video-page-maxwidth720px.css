@@ -1,4 +1,4 @@
-@media (max-width: 640px) {
+@media (max-width: 780px) and (orientation: portrait) {
 
     .navbar {
         height: 31px;
@@ -95,4 +95,103 @@
         padding: 0 0 0 4px;
     }
 
+}
+
+@media (max-width: 780px) and (orientation: landscape) {
+	
+	    .navbar {
+        height: 31px;
+        padding: 0 2.5vw;
+        margin: 1vh 0;
+        text-align: center
+    }
+
+    .navbar a {
+        float: none;
+        padding: 0 20px;
+        font-size: 12px;
+        line-height: 31px;
+    }
+
+    .navbar a.main-title:hover {
+        text-shadow: 0 0 10px black;
+    }
+
+    .navbar a.next {
+        display: none;
+    }
+	
+    .navbar a.year {
+        display: none;
+    }
+
+    .navbar a.sub-menu {
+        display: none;
+    }
+	
+    .navbar a.sub-title {
+        display: none;
+    }
+
+    .video-page {
+        grid-template-columns: min(384px, calc((100vh - 5vh - 71px) * 1.7777)) calc((100vh - 5vh - 71px) * 1.7777 * 0.5);
+        grid-template-rows: calc(100vh - 5vh - 71px) 20px 20px;
+        gap: 1vh;
+        padding: 0 0 1vh 0;
+    }
+
+    .main-video {
+        width: min(384px, calc((100vh - 5vh - 59px) * 1.7777));
+        height: calc(100vh - 5vh - 71px);
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .video-main iframe {
+        width: min(384px, calc((100vh - 5vh - 59px) * 1.7777));
+        height: calc(100vh - 5vh - 71px);
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    #main-video-title {
+        font-size: 14px;
+		padding: 0 0 0 1vw;
+		margin: 0;
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    #main-video-subtitle {
+        font-size: 14px;
+		padding: 0 0 0 1vw;
+		margin: 0;
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+
+    .main-playlist {
+        width: calc((100vh - 5vh - 71px) * 1.7777 * 0.5);
+        height: calc(100vh - 3vh - 31px);
+        /*navbar 31px + navbar, padding 2vh + 1vh */
+        min-height: 0px;
+		margin: 0;
+        grid-column: 2 / 3;
+        grid-row: 1 / 4;
+    }
+
+    .playlist-img {
+        width: 80px;
+        height: 60px;
+		/*4:3 이미지*/
+        padding: 1px 2px;
+    }
+
+    .playlist-title {
+        width: calc((100vh - 5vh - 71px) * 1.7777 * 0.5 - 80px);
+        /**/
+        font-size: 12px;
+        padding: 0 0 0 4px;
+    }
+	
 }
