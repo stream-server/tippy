@@ -7,7 +7,7 @@
       let cssFile = '';
 
       if (isMobile()) {
-        cssFile = '../css/video-page-maxwidth720px.css';
+        cssFile = '../css/video-page-mobile.css';
       } else {
         cssFile = 'desktop.css';
       }
