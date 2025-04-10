@@ -134,7 +134,7 @@
     }
 
     .video-page {
-        grid-template-columns: min(384px, calc((100vh - 5vh - 71px) * 1.7777)) calc((100vh - 5vh - 71px) * 1.7777 * 0.5);
+        grid-template-columns: min(384px, calc((100vh - 5vh - 71px) * 1.7777)) calc((100vh - 5vh - 71px) * 1.7777 * 0.4);
         grid-template-rows: calc(100vh - 5vh - 71px) 20px 20px;
         gap: 1vh;
         padding: 0 0 1vh 0;
@@ -171,7 +171,7 @@
     }
 
     .main-playlist {
-        width: calc((100vh - 5vh - 71px) * 1.7777 * 0.5);
+        width: calc((100vh - 5vh - 71px) * 1.7777 * 0.4);
         height: calc(100vh - 3vh - 31px);
         /*navbar 31px + navbar, padding 2vh + 1vh */
         min-height: 0px;
