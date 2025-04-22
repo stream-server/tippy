@@ -1,6 +1,6 @@
 @media (max-width: 780px) and (orientation: landscape) {
-	
-	    .navbar {
+    
+        .navbar {
         height: 31px;
         padding: 0 2.5vw;
         margin: 1vh 0;
@@ -21,7 +21,7 @@
     .navbar a.next {
         display: none;
     }
-	
+    
     .navbar a.year {
         display: none;
     }
@@ -29,7 +29,7 @@
     .navbar a.sub-menu {
         display: none;
     }
-	
+    
     .navbar a.sub-title {
         display: none;
     }
@@ -57,16 +57,16 @@
 
     #main-video-title {
         font-size: 14px;
-		padding: 0 0 0 1vw;
-		margin: 0;
+        padding: 0 0 0 1vw;
+        margin: 0;
         grid-column: 1 / 2;
         grid-row: 2 / 3;
     }
 
     #main-video-subtitle {
         font-size: 14px;
-		padding: 0 0 0 1vw;
-		margin: 0;
+        padding: 0 0 0 1vw;
+        margin: 0;
         grid-column: 1 / 2;
         grid-row: 3 / 4;
     }
@@ -76,7 +76,7 @@
         height: calc(100vh - 3vh - 31px);
         /*navbar 31px + navbar, padding 2vh + 1vh */
         min-height: 0px;
-		margin: 0;
+        margin: 0;
         grid-column: 2 / 3;
         grid-row: 1 / 4;
     }
@@ -84,7 +84,7 @@
     .playlist-img {
         width: 80px;
         height: 60px;
-		/*4:3 이미지*/
+        /*4:3 이미지*/
         padding: 1px 2px;
     }
 
@@ -94,5 +94,5 @@
         font-size: 12px;
         padding: 0 0 0 4px;
     }
-	
+    
 }

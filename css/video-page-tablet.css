@@ -19,7 +19,7 @@
     .navbar a.next {
         text-shadow: none;
     }
-	
+    
     .navbar a.year {
         text-shadow: none;
     }
@@ -28,7 +28,7 @@
         text-shadow: none;
     }
 
-	.navbar a.sub-menu:hover {
+    .navbar a.sub-menu:hover {
         text-shadow: 0 0 16px black;
     }
 
@@ -55,14 +55,14 @@
 
     #main-video-title {
         font-size: 20px;
-		padding: 0 0 0 10px;
+        padding: 0 0 0 10px;
         grid-column: 1 / 2;
         grid-row: 2 / 3;
     }
 
     #main-video-subtitle {
         font-size: 20px;
-		padding: 0 0 0 10px;
+        padding: 0 0 0 10px;
         grid-column: 1 / 2;
         grid-row: 3 / 4;
     }
@@ -71,7 +71,7 @@
         width: calc(100vw - 20px);
         height: calc(100vh - 147px - ((100vw - 20px) * 0.5625));
         /*navbar 65px + gap 18px + text 54px + bottom padding 10px*/
-		min-height: 400px;
+        min-height: 400px;
         grid-column: 1 / 2;
         grid-row: 4 / 5;
     }

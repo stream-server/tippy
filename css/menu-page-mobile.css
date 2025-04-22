@@ -20,11 +20,11 @@
         height: 31px;
         padding: 0 20px;
     }
-	
+    
     .navbar a.navbar-title:hover {
         text-shadow: 0 0 10px black;
     }
-	
+    
     .navbar-title {
         font-size: 12px;
         padding: 8px 20px;
@@ -43,7 +43,7 @@
     /* main 부분 */
     .row-main {
         width: 98vw;
-		padding: 0 1vw;
+        padding: 0 1vw;
     }
 
     .main-middle {

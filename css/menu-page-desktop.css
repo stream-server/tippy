@@ -21,7 +21,7 @@
         font-size: 20px;
         padding: 12px 20px;
     }
-	
+    
     .navbar a.navbar-title:hover {
         text-shadow: 0 0 20px black;
     }
@@ -60,18 +60,18 @@
         background-color: #ECD9FF;
         border-radius: 8px;
     }
-	
-	.side-thumb-img {
+    
+    .side-thumb-img {
         width: 300px;
         height: auto;
-		border-radius: 8px;
+        border-radius: 8px;
     }
 
     .side-random-img {
         width: 300px;
         height: auto;
         margin: 0px 0px 10px 0px;
-		border-radius: 8px;
+        border-radius: 8px;
     }
 
     /* main 부분 */
