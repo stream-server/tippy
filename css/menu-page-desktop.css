@@ -117,3 +117,19 @@
     }
 
 }
+
+@media (min-width: 2000px) {
+
+    .list-select {
+        width: calc((100vw - 380px) / 6);
+        /*side 350px + padding 20px + scroll 10px = 380px*/
+    }
+
+    .list-img img {
+        width: calc((100vw - 428px) / 6);
+        /*side 350px + padding 20px + scroll 10px + img pading 4px x 2 x 6 = 428px*/
+        height: calc(((100vw - 428px) / 6) * 1.5);
+        padding: 4px 4px 0 4px;
+    }
+
+}
