@@ -103,3 +103,105 @@
     }
 
 }
+
+@media (max-width: 1400px) {
+
+    .navbar {
+        height: 45px;
+        padding: 0 20px;
+        margin: 10px 0;
+    }
+
+    .navbar a {
+        padding: 0 8px;
+        font-size: 18px;
+        line-height: 45px;
+    }
+
+    .navbar a.main-title:hover {
+        text-shadow: 0 0 16px black;
+    }
+
+    .navbar a.next {
+        text-shadow: none;
+    }
+    
+    .navbar a.year {
+        text-shadow: none;
+    }
+
+    .navbar a.sub-title {
+        text-shadow: none;
+    }
+
+    .navbar a.sub-menu:hover {
+        text-shadow: 0 0 16px black;
+    }
+
+    .video-page {
+        grid-template-columns: calc(100vw - 20px);
+        grid-template-rows: calc((100vw - 20px) * 0.5625) 27px 27px auto;
+        gap: 6px;
+        padding: 0 0 10px 0;
+    }
+
+    .main-video {
+        width: calc(100vw - 20px);
+        height: calc((100vw - 20px) * 0.5625) ;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .video-main iframe {
+        width: calc(100vw - 20px);
+        height: calc((100vw - 20px) * 0.5625);
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    #main-video-title {
+        font-size: 20px;
+        padding: 0 0 0 10px;
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    #main-video-subtitle {
+        font-size: 20px;
+        padding: 0 0 0 10px;
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+
+    .main-playlist {
+        width: calc(100vw - 20px);
+        height: auto;
+        /*navbar 65px + gap 18px + text 54px + bottom padding 10px*/
+		/*calc(100vh - 147px - ((100vw - 20px) * 0.5625))*/
+        min-height: 400px;
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+
+    .main-playlist::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .main-playlist::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+    }
+
+    .playlist-img {
+        width: 240px;
+        height: 135px;
+        padding: 2px 4px;
+    }
+
+    .playlist-title {
+        width: calc(100vw - 284px);
+        /*img padding 8px + img 240px + scrollbar 8px + title padding 8px + padding 20px*/
+        font-size: 20px;
+        padding: 0 0 0 8px;
+    }
+
+}
