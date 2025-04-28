@@ -49,14 +49,14 @@
     }
 
     .list-select {
-        width: calc((100vw - 30px) / 4);
+        width: calc((100vw - 30px) / 5);
         /*padding 20px + scroll 10px = 30px*/
     }
 
     .list-img img {
-        width: calc((100vw - 62px) / 4);
+        width: calc((100vw - 70px) / 5);
         /*padding 20px + scroll 10px + img pading 4px x 2 x 4 = 62px*/
-        height: calc(((100vw - 62px) / 4) * 1.5);
+        height: calc(((100vw - 70px) / 5) * 1.5);
         padding: 4px 4px 0 4px;
     }
 
