@@ -3,9 +3,9 @@ var curindex = 0
 
 var randomimages = new Array()
 
-randomimages[0] = "https://lh3.google.com/u/0/d/1K-1_k-YPvI0Y09JcTvsYkrGP9fsT7h9t=w1920-h1080"
-randomimages[1] = "https://lh3.google.com/u/0/d/1w-uD1cyzFU-5G_UipBhw18Wy7Y-awHiJ=w1920-h1080"
-randomimages[2] = "https://lh3.google.com/u/0/d/1mpmrp0XyPAYMfSQ4y7wKjHqwzw5768Yh=w1920-h1080"
+randomimages[0] = "https://lh3.google.com/u/0/d/1K-1_k-YPvI0Y09JcTvsYkrGP9fsT7h9t"
+randomimages[1] = "https://lh3.google.com/u/0/d/1w-uD1cyzFU-5G_UipBhw18Wy7Y-awHiJ"
+randomimages[2] = "https://lh3.google.com/u/0/d/1mpmrp0XyPAYMfSQ4y7wKjHqwzw5768Yh"
 
 var preload = new Array()
 

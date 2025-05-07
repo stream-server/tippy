@@ -3,11 +3,11 @@ var curindex = 0
 
 var randomimages = new Array()
 
-randomimages[0] = "https://lh3.google.com/u/0/d/1VmVegDbkp84JL6pWypyNIWcucCeuiqSA=w1920-h1080"
-randomimages[1] = "https://lh3.google.com/u/0/d/11MkONlKlUVek_ZL2Epx0ywQtKzo-FGFn=w1920-h1080"
-randomimages[2] = "https://lh3.google.com/u/0/d/1PhaOt02Howfnd6NBmYVBkA5X-13R953X=w1920-h1080"
-randomimages[3] = "https://lh3.google.com/u/0/d/1zogLvj63h15H2Phfa62seaKd0REvB2I2=w1920-h1080"
-randomimages[4] = "https://lh3.google.com/u/0/d/1J2H_YENu2fxU5dF42cA1IVGNNIVt6R6w=w1920-h1080"
+randomimages[0] = "https://lh3.google.com/u/0/d/1VmVegDbkp84JL6pWypyNIWcucCeuiqSA"
+randomimages[1] = "https://lh3.google.com/u/0/d/11MkONlKlUVek_ZL2Epx0ywQtKzo-FGFn"
+randomimages[2] = "https://lh3.google.com/u/0/d/1PhaOt02Howfnd6NBmYVBkA5X-13R953X"
+randomimages[3] = "https://lh3.google.com/u/0/d/1zogLvj63h15H2Phfa62seaKd0REvB2I2"
+randomimages[4] = "https://lh3.google.com/u/0/d/1J2H_YENu2fxU5dF42cA1IVGNNIVt6R6w"
 
 var preload = new Array()
 

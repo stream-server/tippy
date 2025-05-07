@@ -76,7 +76,8 @@
 
     /* main 부분 */
     .row-main {
-        width: calc(100vw - 370px);
+        width: calc(100vw - 380px);
+		/*side 350px + padding 20px + scroll 10px = 380px*/
         padding: 0 10px;
     }
 

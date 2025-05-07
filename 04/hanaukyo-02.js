@@ -3,18 +3,18 @@ var curindex = 0
 
 var randomimages = new Array()
 
-randomimages[0] = "https://lh3.google.com/u/0/d/1Bf3wkF8J5FgFdsATBebxRBVUKYZZXhgd=w1920-h1080"
-randomimages[1] = "https://lh3.google.com/u/0/d/1q7tfdQ757Uw5eJULNdSbLLCM7gO334QZ=w1920-h1080"
-randomimages[2] = "https://lh3.google.com/u/0/d/1NZHiRC-quz41b8ZTTFuk9bUqD5ZqtKT-=w1920-h1080"
-randomimages[3] = "https://lh3.google.com/u/0/d/1p3J-EfOPVlrSwn8zY8InARBzqrsAdCGo=w1920-h1080"
-randomimages[4] = "https://lh3.google.com/u/0/d/1npZyc3iVBwRdEplSEpKTIrcDP_R6gQVC=w1920-h1080"
-randomimages[5] = "https://lh3.google.com/u/0/d/1c8cf3b_mZ2_maaDZzRFvC7Z84EgTDWHU=w1920-h1080"
-randomimages[6] = "https://lh3.google.com/u/0/d/1jpt8yqa_6CDQLkz9NuncjB6iM_ttiKYH=w1920-h1080"
-randomimages[7] = "https://lh3.google.com/u/0/d/1ldWh76jAMK1TdByEmbUSyxghKV8BygTQ=w1920-h1080"
-randomimages[8] = "https://lh3.google.com/u/0/d/1oy8946IA2JEUh9hJ6a9VL6-ysbJVCrGC=w1920-h1080"
-randomimages[9] = "https://lh3.google.com/u/0/d/1UaedPstsLi7Anweg5BpBLfs6xUxU_fxe=w1920-h1080"
-randomimages[10] = "https://lh3.google.com/u/0/d/1ndQB7X1OK_LU43WLpqHg9_D_eb39ICF8=w1920-h1080"
-randomimages[11] = "https://lh3.google.com/u/0/d/11yHcR5uYANMUnqUIWlIrLG1owCIF3Zcf=w1920-h1080"
+randomimages[0] = "https://lh3.google.com/u/0/d/1Bf3wkF8J5FgFdsATBebxRBVUKYZZXhgd"
+randomimages[1] = "https://lh3.google.com/u/0/d/1q7tfdQ757Uw5eJULNdSbLLCM7gO334QZ"
+randomimages[2] = "https://lh3.google.com/u/0/d/1NZHiRC-quz41b8ZTTFuk9bUqD5ZqtKT-"
+randomimages[3] = "https://lh3.google.com/u/0/d/1p3J-EfOPVlrSwn8zY8InARBzqrsAdCGo"
+randomimages[4] = "https://lh3.google.com/u/0/d/1npZyc3iVBwRdEplSEpKTIrcDP_R6gQVC"
+randomimages[5] = "https://lh3.google.com/u/0/d/1c8cf3b_mZ2_maaDZzRFvC7Z84EgTDWHU"
+randomimages[6] = "https://lh3.google.com/u/0/d/1jpt8yqa_6CDQLkz9NuncjB6iM_ttiKYH"
+randomimages[7] = "https://lh3.google.com/u/0/d/1ldWh76jAMK1TdByEmbUSyxghKV8BygTQ"
+randomimages[8] = "https://lh3.google.com/u/0/d/1oy8946IA2JEUh9hJ6a9VL6-ysbJVCrGC"
+randomimages[9] = "https://lh3.google.com/u/0/d/1UaedPstsLi7Anweg5BpBLfs6xUxU_fxe"
+randomimages[10] = "https://lh3.google.com/u/0/d/1ndQB7X1OK_LU43WLpqHg9_D_eb39ICF8"
+randomimages[11] = "https://lh3.google.com/u/0/d/11yHcR5uYANMUnqUIWlIrLG1owCIF3Zcf"
 
 var preload = new Array()
 
