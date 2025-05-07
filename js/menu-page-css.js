@@ -2,7 +2,7 @@
       if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         const link = document.createElement('link');
         link.rel = 'stylesheet';
-        link.href = '../css/video-page-js-mobile.css';
+        link.href = '../css/menu-page-js-mobile.css';
         document.head.appendChild(link);
       }
     }
