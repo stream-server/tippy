@@ -1,3 +1,4 @@
+@media (max-width: 720px) {
 
     .navbar {
         height: 31px;
@@ -93,3 +94,5 @@
         font-size: 12px;
         padding: 0 0 0 4px;
     }
+
+}
