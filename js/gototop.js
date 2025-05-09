@@ -1,7 +1,7 @@
 var mybutton = document.getElementById("gttopbtn");
 
 function scrollFunction() {
-    500 < document.body.scrollTop || 500 < document.documentElement.scrollTop ? mybutton.style.display = "block" : mybutton.style.display = "none"
+    400 < document.body.scrollTop || 400 < document.documentElement.scrollTop ? mybutton.style.display = "block" : mybutton.style.display = "none"
 }
 
 function topFunction() {

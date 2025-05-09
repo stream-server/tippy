@@ -88,20 +88,3 @@ footer {
     background-color: #D3ABFB;
     background-image: linear-gradient(62deg, #D3ABFB 20%, #75B8FB 100%);
 }
-
-#gttopbtn {
-    display: none;
-    position: fixed;
-    font-weight: bold;
-    color: #ffffff;
-    border: none;
-    outline: none;
-    background-color: #CB96FF;
-    cursor: pointer;
-    border-radius: 8px;
-}
-
-#gttopbtn:hover {
-    color: #000000;
-    background-color: #ECD9FF;
-}

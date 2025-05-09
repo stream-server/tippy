@@ -120,6 +120,13 @@
         padding: 0 0 0 8px;
     }
 
+    #gttopbtn {
+        padding: 15px 30px;
+        bottom: 30px;
+        right: 30px;
+        font-size: 18px;
+    }
+
 }
 
 @media (min-width: 670px) {
