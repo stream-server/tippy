@@ -18,44 +18,38 @@ randomimages[11] = "https://lh3.google.com/u/0/d/1_0JV4at9cht3OxRQ4CPuRH7hLEawjY
 randomimages[12] = "https://lh3.google.com/u/0/d/1-cbYtfOSiKjqHkpGEl9E8yFGd7hOYuRU"
 randomimages[13] = "https://lh3.google.com/u/0/d/14GWVcLEryC48C0qmZKy111o19ZUz9Odl"
 randomimages[14] = "https://lh3.google.com/u/0/d/1rhla6FYvZRXg40fJnzWy1Ej0ndTB9h6a"
-randomimages[15] = "https://lh3.google.com/u/0/d/12v5UYLRODJHh3moApfSBpsoIdM0JMHnD"
-randomimages[16] = "https://lh3.google.com/u/0/d/1O6Nazr4l34YukvFvpcC82kDmWW-sh5Ub"
-randomimages[17] = "https://lh3.google.com/u/0/d/1b6rkLZpjYgLFjpo-Cdyi63z3qTkYpfTj"
-randomimages[18] = "https://lh3.google.com/u/0/d/1MtX-e7AVph5Lwm2rc-UIDDlsY2-f9ie_"
-randomimages[19] = "https://lh3.google.com/u/0/d/1f7m4NDSIvMaZYJPRD0_eRBUqm3UUAiY2"
-randomimages[20] = "https://lh3.google.com/u/0/d/1_XOnIJewREd4bTlVmIbxdEPnBIEDjl6M"
-randomimages[21] = "https://lh3.google.com/u/0/d/1T4P4Kgv9iLJDuU7eoK8Y4k5CFC8Wi9py"
-randomimages[22] = "https://lh3.google.com/u/0/d/1_VaEgEhjFoQaY7whjSCeNpFp8dzkbiXr"
-randomimages[23] = "https://lh3.google.com/u/0/d/1eePC1zURYCHcZQPn_ybC3f89mVcobx_b"
-randomimages[24] = "https://lh3.google.com/u/0/d/1TGxkyyWIxojmMmaab3icCD0QazxiwOrL"
-randomimages[25] = "https://lh3.google.com/u/0/d/1sKB0EsgqdSA5LprJHYOWg5CmfoCJf87K"
-randomimages[26] = "https://lh3.google.com/u/0/d/1QKbIfAZ4oV7v-MnEJNTgE_sqVHg6eHx4"
-randomimages[27] = "https://lh3.google.com/u/0/d/1Ap891UOu1QY37_jlSx2dtgZsio7YeS-q"
-randomimages[28] = "https://lh3.google.com/u/0/d/1VzbFra1nRuqNXJtEaapRSo11fePBUKAD"
-randomimages[29] = "https://lh3.google.com/u/0/d/113sn3m6htlDaGxZrvWzNCcsfZwq51SbR"
-randomimages[30] = "https://lh3.google.com/u/0/d/1bbR88keMqjya7WdBFXW0SeEsiLJog0KB"
-randomimages[31] = "https://lh3.google.com/u/0/d/1DLubQObX5Kvw9arnTaUpAWivIhMaf7f_"
-randomimages[32] = "https://lh3.google.com/u/0/d/1WRwnuNm3H6L4UYLYMPfFYF855q_o89MS"
-randomimages[33] = "https://lh3.google.com/u/0/d/1uJ6bCbnpsmSHgMucPEEq1leCKPTNyEL-"
-randomimages[34] = "https://lh3.google.com/u/0/d/1Fl88KxSGb-uZwHQ1SjGo9hTgVuJuVoZ3"
-randomimages[35] = "https://lh3.google.com/u/0/d/1iCFrtJ-iWPFCVt75kibQxPOO1kA8K4c_"
-randomimages[36] = "https://lh3.google.com/u/0/d/1YRrE_bJBr96r0yl89ZCUHVyair74GXg1"
-randomimages[37] = "https://lh3.google.com/u/0/d/1SRvjDe-6TgX0FHGYTDJgOoUABkEg_WKO"
-randomimages[38] = "https://lh3.google.com/u/0/d/1fXwXDYeWrtvoynHQ0c0QH0QKXbULNkxz"
-randomimages[39] = "https://lh3.google.com/u/0/d/1LfQSnSpk9Qvn7GdPY3xOpWmRsJrcynh4"
-randomimages[40] = "https://lh3.google.com/u/0/d/1-CSOn8rMYSNjFV_I1eNJxalhWw1qqGMj"
-randomimages[41] = "https://lh3.google.com/u/0/d/1ZqhhU4RnI9tr28jo-PzaRI6_V5btMC6U"
-randomimages[42] = "https://lh3.google.com/u/0/d/1bZuLCS_2T_4oYO6167xv0UKceIHWKARA"
-randomimages[43] = "https://lh3.google.com/u/0/d/1xXDvLCEOtLo4YUgVVPqe-ctIIYXlvA6f"
-randomimages[44] = "https://lh3.google.com/u/0/d/1Zd18gcEJ8gP1UWOAlzx9d5EsWcbfZIAc"
-randomimages[45] = "https://lh3.google.com/u/0/d/1C2CmN6o7GeMfVo5VAdHM4liYDUh2F4Hh"
-randomimages[46] = "https://lh3.google.com/u/0/d/1xzVxb429XUqQCY8Hw_IG2BGdGWuzNj9C"
-randomimages[47] = "https://lh3.google.com/u/0/d/1sgk1-uPBpf9QpRND_AWWrTkUb0o6rfxK"
-randomimages[48] = "https://lh3.google.com/u/0/d/1vIUtBxQJrPQsutQfyizWA4e7Bc8xnYRz"
-randomimages[49] = "https://lh3.google.com/u/0/d/129ChabKfU6fWTjtTgxuLuRUwRKoBBgQl"
-randomimages[50] = "https://lh3.google.com/u/0/d/19M42X6AWatSD6-SaqAzaH0xYk1iCiR_v"
-randomimages[51] = "https://lh3.google.com/u/0/d/1RRN5OPNf8apt6BxPOWJT9w2oylpguJz-"
-randomimages[52] = "https://lh3.google.com/u/0/d/1LoFtexeWEtSx-B7rQZ8T0j_zPTRDri8R"
+randomimages[15] = "https://lh3.google.com/u/0/d/1O6Nazr4l34YukvFvpcC82kDmWW-sh5Ub"
+randomimages[16] = "https://lh3.google.com/u/0/d/1b6rkLZpjYgLFjpo-Cdyi63z3qTkYpfTj"
+randomimages[17] = "https://lh3.google.com/u/0/d/1MtX-e7AVph5Lwm2rc-UIDDlsY2-f9ie_"
+randomimages[18] = "https://lh3.google.com/u/0/d/1f7m4NDSIvMaZYJPRD0_eRBUqm3UUAiY2"
+randomimages[19] = "https://lh3.google.com/u/0/d/1_XOnIJewREd4bTlVmIbxdEPnBIEDjl6M"
+randomimages[20] = "https://lh3.google.com/u/0/d/1T4P4Kgv9iLJDuU7eoK8Y4k5CFC8Wi9py"
+randomimages[21] = "https://lh3.google.com/u/0/d/1eePC1zURYCHcZQPn_ybC3f89mVcobx_b"
+randomimages[22] = "https://lh3.google.com/u/0/d/1TGxkyyWIxojmMmaab3icCD0QazxiwOrL"
+randomimages[23] = "https://lh3.google.com/u/0/d/1sKB0EsgqdSA5LprJHYOWg5CmfoCJf87K"
+randomimages[24] = "https://lh3.google.com/u/0/d/1QKbIfAZ4oV7v-MnEJNTgE_sqVHg6eHx4"
+randomimages[25] = "https://lh3.google.com/u/0/d/1Ap891UOu1QY37_jlSx2dtgZsio7YeS-q"
+randomimages[26] = "https://lh3.google.com/u/0/d/1VzbFra1nRuqNXJtEaapRSo11fePBUKAD"
+randomimages[27] = "https://lh3.google.com/u/0/d/1DLubQObX5Kvw9arnTaUpAWivIhMaf7f_"
+randomimages[28] = "https://lh3.google.com/u/0/d/1WRwnuNm3H6L4UYLYMPfFYF855q_o89MS"
+randomimages[29] = "https://lh3.google.com/u/0/d/1uJ6bCbnpsmSHgMucPEEq1leCKPTNyEL-"
+randomimages[30] = "https://lh3.google.com/u/0/d/1Fl88KxSGb-uZwHQ1SjGo9hTgVuJuVoZ3"
+randomimages[31] = "https://lh3.google.com/u/0/d/1iCFrtJ-iWPFCVt75kibQxPOO1kA8K4c_"
+randomimages[32] = "https://lh3.google.com/u/0/d/1SRvjDe-6TgX0FHGYTDJgOoUABkEg_WKO"
+randomimages[33] = "https://lh3.google.com/u/0/d/1LfQSnSpk9Qvn7GdPY3xOpWmRsJrcynh4"
+randomimages[34] = "https://lh3.google.com/u/0/d/1-CSOn8rMYSNjFV_I1eNJxalhWw1qqGMj"
+randomimages[35] = "https://lh3.google.com/u/0/d/1ZqhhU4RnI9tr28jo-PzaRI6_V5btMC6U"
+randomimages[36] = "https://lh3.google.com/u/0/d/1bZuLCS_2T_4oYO6167xv0UKceIHWKARA"
+randomimages[37] = "https://lh3.google.com/u/0/d/1Zd18gcEJ8gP1UWOAlzx9d5EsWcbfZIAc"
+randomimages[38] = "https://lh3.google.com/u/0/d/1C2CmN6o7GeMfVo5VAdHM4liYDUh2F4Hh"
+randomimages[39] = "https://lh3.google.com/u/0/d/1xzVxb429XUqQCY8Hw_IG2BGdGWuzNj9C"
+randomimages[40] = "https://lh3.google.com/u/0/d/1sgk1-uPBpf9QpRND_AWWrTkUb0o6rfxK"
+randomimages[41] = "https://lh3.google.com/u/0/d/1vIUtBxQJrPQsutQfyizWA4e7Bc8xnYRz"
+randomimages[42] = "https://lh3.google.com/u/0/d/129ChabKfU6fWTjtTgxuLuRUwRKoBBgQl"
+randomimages[43] = "https://lh3.google.com/u/0/d/1RRN5OPNf8apt6BxPOWJT9w2oylpguJz-"
+randomimages[44] = "https://lh3.google.com/u/0/d/1LoFtexeWEtSx-B7rQZ8T0j_zPTRDri8R"
+randomimages[45] = "https://lh3.google.com/u/0/d/1pyHxWaxvP5adwU1ZvQFEKWckA8s613PY"
+randomimages[46] = "https://lh3.google.com/u/0/d/1SAUeD1Eqzq_sa3zglpThx8RpJkJTNzkn"
 
 var preload = new Array()
 
@@ -102,44 +96,38 @@ function rotateimage() {
 "https://i.postimg.cc/bw35KXfz/0013.jpg",
 "https://i.postimg.cc/brcVQpkR/0014.jpg",
 "https://i.postimg.cc/k4th6B64/0015.jpg",
-"https://i.postimg.cc/xTPpzrCK/0016.jpg",
 "https://i.postimg.cc/mksVPVWX/0017.jpg",
 "https://i.postimg.cc/wxX0CKDS/0018.jpg",
 "https://i.postimg.cc/gjHs8RYY/0019.jpg",
 "https://i.postimg.cc/rFqQchJz/0020.jpg",
 "https://i.postimg.cc/xTggdKx5/0021.jpg",
 "https://i.postimg.cc/sgXmGvbr/0022.jpg",
-"https://i.postimg.cc/0yBfY9qJ/0023.jpg",
 "https://i.postimg.cc/jjnhvBs3/0024.jpg",
 "https://i.postimg.cc/j5V41v2x/0025.jpg",
 "https://i.postimg.cc/ydFyC93F/0026.jpg",
 "https://i.postimg.cc/brpHyJ14/0027.jpg",
 "https://i.postimg.cc/x85Gc2R8/0028.jpg",
 "https://i.postimg.cc/7PnnB3k4/0029.jpg",
-"https://i.postimg.cc/VLsB2JfC/0030.jpg",
-"https://i.postimg.cc/3JLCh3Nb/0031.jpg",
 "https://i.postimg.cc/9QrPFsqX/0032.jpg",
 "https://i.postimg.cc/QdwQBSpQ/0033.jpg",
 "https://i.postimg.cc/ZRh6HRs0/0034.jpg",
 "https://i.postimg.cc/nLmvq7k6/0035.jpg",
 "https://i.postimg.cc/DZdLMTR6/0036.jpg",
-"https://i.postimg.cc/XqjdMPbb/0037.jpg",
 "https://i.postimg.cc/mZj73TY2/0038.jpg",
-"https://i.postimg.cc/7hK7qNHT/0039.jpg",
 "https://i.postimg.cc/CLKkm97C/0040.jpg",
 "https://i.postimg.cc/GhSYNzgW/0041.jpg",
 "https://i.postimg.cc/vZg9d9pc/0042.jpg",
 "https://i.postimg.cc/fRGdWyN5/0043.jpg",
-"https://i.postimg.cc/9fy7D2X2/0044.jpg",
 "https://i.postimg.cc/k49t8HDb/0045.jpg",
 "https://i.postimg.cc/NM42xxrP/0046.jpg",
 "https://i.postimg.cc/Y0CGDm62/0047.jpg",
 "https://i.postimg.cc/j23WpdcH/0048.jpg",
 "https://i.postimg.cc/05VJMcvz/0049.jpg",
 "https://i.postimg.cc/rFzRSxyQ/0050.jpg",
-"https://i.postimg.cc/CLtBJ5zY/0051.jpg",
 "https://i.postimg.cc/rwrdHTr4/0052.jpg",
-"https://i.postimg.cc/nLfsbW4P/0053.jpg"
+"https://i.postimg.cc/nLfsbW4P/0053.jpg",
+"https://i.postimg.cc/zGgNVSXY/0054.jpg",
+"https://i.postimg.cc/QMZ359H9/0055.jpg"
 ];
     var randomIndex = Math.floor(Math.random() * placeholderImages.length);
     document.images.defaultimage.src = placeholderImages[randomIndex];
