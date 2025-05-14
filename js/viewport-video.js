@@ -2,7 +2,6 @@ const spans = document.querySelectorAll('span');
 const VideoMain = document.getElementById('video-main');
 const MainVideoTitle = document.getElementById('main-video-title');
 const MainVideoSubtitle = document.getElementById('main-video-subtitle');
-const iframe = document.getElementById('fullscreenIframe');
 let currentIframe;
 
 spans.forEach(span => {
@@ -46,28 +45,3 @@ spans.forEach(span => {
         }
     });
 });
-
-function requestFullscreen(element) {
-    if (element.requestFullscreen) {
-      element.requestFullscreen();
-    } else if (element.mozRequestFullScreen) { /* Firefox */
-      element.mozRequestFullScreen();
-    } else if (element.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
-      element.webkitRequestFullscreen();
-    } else if (element.msRequestFullscreen) { /* IE/Edge */
-      element.msRequestFullscreen();
-    }
-  }
-
-  function setLandscapeOrientation() {
-    if (screen.orientation && screen.orientation.lock) {
-      screen.orientation.lock('landscape');
-    } else if (screen.orientation && screen.orientation.unlock) {
-      screen.orientation.unlock(); // 혹시 다른 방향으로 잠겨있을 경우 해제
-      screen.orientation.lock('landscape');
-    } else {
-      // screen.orientation API를 지원하지 않는 경우 (구형 브라우저)
-      // CSS transform 등을 사용하여 가로로 보이게 하는 방법을 고려해야 합니다.
-      console.warn("Screen orientation API is not supported.");
-    }
-  }
