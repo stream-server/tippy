@@ -16,7 +16,8 @@ randomimages[9] = "https://lh3.google.com/u/0/d/1sgul7m1KrJMobu3ILr8xN_aH2OVuajX
 randomimages[10] = "https://lh3.google.com/u/0/d/1V5PisXo02mueY5FO3rVsp8UJG_uqJyJK"
 randomimages[11] = "https://lh3.google.com/u/0/d/1FC5oM3jZBHXnms22K7Law8vQR8UkaA5U"
 randomimages[12] = "https://lh3.google.com/u/0/d/1P51p3IvREbFVKG7qwf866KTMMPIgXdQ1"
-randomimages[13] = "https://lh3.google.com/u/0/d/1yamdJ6s20pC4XTtWvFsU07iMqmhPn22Q"
+randomimages[13] = "https://lh3.google.com/u/0/d/12KRi4a-8MArPBoW-ACbItsbc_mX_SdOV"
+randomimages[14] = "https://lh3.google.com/u/0/d/1yamdJ6s20pC4XTtWvFsU07iMqmhPn22Q"
 
 var preload = new Array()
 
@@ -61,6 +62,7 @@ function rotateimage() {
 "https://i.postimg.cc/Qx4ccZB7/10.jpg",
 "https://i.postimg.cc/jSDPX3NF/11.jpg",
 "https://i.postimg.cc/13b6Y0r5/12.jpg",
+"https://i.postimg.cc/Pxrn4CcY/14.jpg",
 "https://i.postimg.cc/cCL8LBFv/20.jpg"
 ];
     var randomIndex = Math.floor(Math.random() * placeholderImages.length);
