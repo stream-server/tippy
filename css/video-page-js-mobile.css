@@ -296,7 +296,7 @@
     .video-page {
         grid-template-columns: min(1760px, calc(100vw - 590px)) 560px;
         grid-template-rows: min(990px, calc((100vw - 590px) * 0.5625)) 30px 30px;
-        gap: 10px;
+        gap: 8px 4px;
         padding: 0;
     }
 		
