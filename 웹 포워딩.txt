@@ -2,6 +2,21 @@
 <html>
 
 <head>
+    <title>Tippy</title>
+    <meta charset="utf-8" />
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Tippy">
+    <meta property="og:image" content="https://i.postimg.cc/L8Dd2YLF/0011.jpg">
+    <link rel="shortcut icon" href="https://lh3.googleusercontent.com/pw/AP1GczMflJz2ICYwAbOnNNH9xK3dsBosn4ROpvyTAP7sMoqdIOuAP4QhqMzFjzt67HcwtzKaZoQ7DmO-xVwBJQEAw3eiQejuL-ScqTgDFGgQ-8HW67mxcABcsAZpiSfHE6oiKV08gsgkT0x0ebfpgZLTf5Y" />
+    <link rel="icon" href="https://lh3.googleusercontent.com/pw/AP1GczMflJz2ICYwAbOnNNH9xK3dsBosn4ROpvyTAP7sMoqdIOuAP4QhqMzFjzt67HcwtzKaZoQ7DmO-xVwBJQEAw3eiQejuL-ScqTgDFGgQ-8HW67mxcABcsAZpiSfHE6oiKV08gsgkT0x0ebfpgZLTf5Y" />
+    <meta http-equiv="Refresh" content="0; URL=https://stream-server.github.io/tippy/anime.html">
+</head>
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
     <title>미나세 이노리 아카이브</title>
     <meta charset="utf-8" />
     <meta property="og:type" content="website">
@@ -9,6 +24,6 @@
     <meta property="og:image" content="https://i.postimg.cc/x8myVJwf/banner-14.jpg">
     <link rel="shortcut icon" href="https://lh3.googleusercontent.com/pw/AP1GczOa5Xrg3k8hBjmminPc3UUr0plo4GLKI8U9YzC6z-tTT394hSPvZsiyQAuyh6SvPLeEoQCl3HOYLPC5Ex_EWjn3RhTgHTJVJrrX08zM9uRifiEsup2L91sOuwom5mp0XeyBODkFccqhqaiaGSoDsnI" />
     <link rel="icon" href="https://lh3.googleusercontent.com/pw/AP1GczOa5Xrg3k8hBjmminPc3UUr0plo4GLKI8U9YzC6z-tTT394hSPvZsiyQAuyh6SvPLeEoQCl3HOYLPC5Ex_EWjn3RhTgHTJVJrrX08zM9uRifiEsup2L91sOuwom5mp0XeyBODkFccqhqaiaGSoDsnI" />
-    <meta http-equiv="Refresh" content="0; URL=">
+    <meta http-equiv="Refresh" content="0; URL=https://stream-server.github.io/tippy/inori-archive/index.html">
 </head>
 </html>
